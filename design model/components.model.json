@@ -5,7 +5,7 @@
             "name": "Avatar",
             "properties": [
                 {
-                    "name": "ConentType",
+                    "name": "ContentType",
                     "valueType": "enum",
                     "enumType": {
                         "initials": "Initials",
@@ -105,6 +105,41 @@
                         "Saturday": "6"
                     },
                     "value": "0"
+                }
+            ]
+        },
+        {
+            "name": "Button",
+            "properties": [
+                {
+                    "name": "Type",
+                    "valueType": "enum",
+                    "enumType": {
+                        "flat": "Flat",
+                        "outlined": "Outlined",
+                        "raised": "Raised",
+                        "icon": "Icon",
+                        "fab": "Fab"
+                    }
+                },
+                {
+                    "name": "ContentType",
+                    "valueType": "enum",
+                    "enumType": {
+                        "text": "Text",
+                        "icon": "Icon"
+                    },
+                    "value": "Text"
+                },
+                {
+                    "name": "Text",
+                    "valueType": "string",
+                    "value": "Button"
+                },
+                {
+                    "name": "Icon",
+                    "valueType": "string",
+                    "value": ""
                 }
             ]
         }
