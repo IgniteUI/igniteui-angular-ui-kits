@@ -48,6 +48,26 @@
                     "valueType": "string"
                 }
             ]
+        },
+        {
+            "name": "Icon",
+            "properties": [
+                {
+                    "name": "Active",
+                    "valueType": "boolean",
+                    "value": true
+                },
+                {
+                    "name": "Name",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "Color",
+                    "valueType": "string",
+                    "value": ""
+                }
+            ]
         }
     ]
 }
