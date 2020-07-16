@@ -142,6 +142,41 @@
                     "value": ""
                 }
             ]
+        },
+        {
+            "name": "Checkbox",
+            "properties": [
+                {
+                    "name": "Label",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "LabelPosition",
+                    "valueType": "enum",
+                    "enumType": {
+                        "none": "None",
+                        "before": "Before",
+                        "after": "After"
+                    },
+                    "value": "None"
+                },
+                {
+                    "name": "Disabled",
+                    "valueType": "boolean",
+                    "value": "false"
+                },
+              {
+                "name": "State",
+                "valueType": "enum",
+                "enumType": {
+                  "checked": "Checked",
+                  "unchecked": "Unchecked",
+                  "indeterminate": "Indeterminate"
+                },
+                "value": "Unchecked"
+              }
+            ]
         }
     ]
 }
