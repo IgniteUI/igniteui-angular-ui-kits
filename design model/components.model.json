@@ -73,7 +73,7 @@
             "name": "Calendar",
             "properties": [
                 {
-                    "name": "Type",
+                    "name": "Layout",
                     "valueType": "enum",
                     "enumType": {
                         "default": "Default",
