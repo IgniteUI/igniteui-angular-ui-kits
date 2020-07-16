@@ -68,6 +68,50 @@
                     "value": ""
                 }
             ]
+        },
+        {
+            "name": "Calendar",
+            "properties": [
+                {
+                    "name": "Type",
+                    "valueType": "enum",
+                    "enumType": {
+                        "default": "Default",
+                        "vertical": "Vertical",
+                        "horizontal": "Horizontal"
+                    },
+                    "value": "Default"
+                },
+                {
+                    "name": "ContentType",
+                    "valueType": "enum",
+                    "enumType": {
+                        "days": "Days",
+                        "months": "Months",
+                        "years": "Years"
+                    },
+                    "value": "Default"
+                },
+                {
+                    "name": "Value",
+                    "valueType": "date",
+                    "value": ""
+                },
+                {
+                    "name": "WeekStart",
+                    "valueType": "enum",
+                    "enumType": {
+                        "Sunday": "0",
+                        "Monday": "1",
+                        "Tuesday": "2",
+                        "Wednesday": "3",
+                        "Thursday": "4",
+                        "Friday": "5",
+                        "Saturday": "6"
+                    },
+                    "value": "0"
+                }
+            ]
         }
     ]
 }
