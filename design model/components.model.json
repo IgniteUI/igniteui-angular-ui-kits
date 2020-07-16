@@ -177,6 +177,47 @@
                 "value": "Unchecked"
               }
             ]
+        },
+        {
+            "name": "DatePicker",
+            "properties": [
+                {
+                    "name": "Type",
+                    "valueType": "enum",
+                    "enumType": {
+                        "default": "Default",
+                        "actionbuttons": "Actionbuttons"
+                    }
+                },
+                {
+                    "name": "Value",
+                    "valueType": "date",
+                    "value": ""
+                },
+                {
+                    "name": "Months",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "Mode",
+                    "valueType": "enum",
+                    "enumType": {
+                        "dropdown": "Dropdown",
+                        "dialog": "Dialog"
+                    },
+                    "value": "dialog"
+                },
+                {
+                    "name": "State",
+                    "valueType": "enum",
+                    "enumType": {
+                        "default": "Default",
+                        "disabled": "Disabled"
+                    },
+                    "value": "default"
+                }
+            ]
         }
     ]
 }
