@@ -1,0 +1,53 @@
+{
+    "name": "Infragistics Design System Components",
+    "components": [
+        {
+            "name": "Avatar",
+            "properties": [
+                {
+                    "name": "Type",
+                    "valueType": "enum",
+                    "enumType": {
+                        "initials": "Initials",
+                        "image": "Image",
+                        "icon": "Icon"
+                    },
+                    "value": "Icon"
+                },
+                {
+                    "name": "Size",
+                    "valueType": "enum",
+                    "enumType": {
+                        "small": "Small",
+                        "medium": "Medium",
+                        "large": "Large"
+                    },
+                    "value": "Medium"
+                },
+                {
+                    "name": "Shape",
+                    "valueType": "enum",
+                    "enumType": {
+                        "circle": "Circle",
+                        "square": "Square"
+                    },
+                    "value": "Circle"
+                },
+                {
+                    "name": "Initials",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "Image",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "Icon",
+                    "valueType": "string"
+                }
+            ]
+        }
+    ]
+}
