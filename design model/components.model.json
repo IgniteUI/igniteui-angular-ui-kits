@@ -179,6 +179,140 @@
             ]
         },
         {
+            "name": "DatePicker",
+            "properties": [
+                {
+                    "name": "Type",
+                    "valueType": "enum",
+                    "enumType": {
+                        "default": "Default",
+                        "actionbuttons": "Actionbuttons"
+                    }
+                },
+                {
+                    "name": "Value",
+                    "valueType": "date",
+                    "value": ""
+                },
+                {
+                    "name": "Months",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "Mode",
+                    "valueType": "enum",
+                    "enumType": {
+                        "dropdown": "Dropdown",
+                        "dialog": "Dialog"
+                    },
+                    "value": "dialog"
+                },
+                {
+                    "name": "State",
+                    "valueType": "enum",
+                    "enumType": {
+                        "default": "Default",
+                        "disabled": "Disabled"
+                    },
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "name": "Badge",
+            "properties": [
+                {
+                    "name": "Shape",
+                    "valueType": "enum",
+                    "enumType": {
+                      "round": "round",
+                      "square": "square"
+                    },
+                    "value": "Round"
+                },
+                {
+                    "name": "Type",
+                    "valueType": "enum",
+                    "enumType": {
+                        "Icon": "Icon",
+                        "Text": "Text"
+                    },
+                    "value": "Icon"
+                },
+                {
+                    "name": "Icon",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "Text",
+                    "valueType": "string",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "name": "Radio",
+            "properties": [
+                {
+                    "name": "Label",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "LabelPosition",
+                    "valueType": "enum",
+                    "enumType": {
+                        "none": "None",
+                        "before": "Before",
+                        "after": "After"
+                    },
+                    "value": "None"
+                },
+                {
+                    "name": "Disabled",
+                    "valueType": "boolean",
+                    "value": "false"
+                },
+                {
+                    "name": "Checked",
+                    "valueType": "boolean",
+                    "value": "false"
+                }
+            ]
+        },
+        {
+            "name": "Switch",
+            "properties": [
+                {
+                    "name": "Label",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "LabelPosition",
+                    "valueType": "enum",
+                    "enumType": {
+                        "none": "None",
+                        "before": "Before",
+                        "after": "After"
+                    },
+                    "value": "None"
+                },
+                {
+                    "name": "Disabled",
+                    "valueType": "boolean",
+                    "value": "false"
+                },
+                {
+                    "name": "Checked",
+                    "valueType": "boolean",
+                    "value": "false"
+                }
+            ]
+        },
+        {
             "name": "Card",
             "properties": [
                 {
