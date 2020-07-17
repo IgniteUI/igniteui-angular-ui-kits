@@ -392,6 +392,53 @@
                            "valueType": "array",
                            "value": []
                         }]
+                },
+                {
+                    "name": "InputGroup",
+                    "properties": [
+                        {
+                            "name": "Label",
+                            "valueType": "string",
+                            "value": ""
+                        },
+                        {
+                            "name": "Value",
+                            "valueType": "string",
+                            "value": ""
+                        },
+                        {
+                            "name": "Type",
+                            "valueType": "enum",
+                            "enumType": {
+                                "text": "Text",
+                                "number": "Number",
+                                "email": "Email",
+                                "password": "Password",
+                                "date": "Date",
+                                "phone": "Phone"
+                            }
+                        },
+                        {
+                            "name": "PrefixContainer",
+                            "properties": [
+                                {
+                                    "name": "Components",
+                                    "valueType": "array",
+                                    "value": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "SuffixContainer",
+                            "properties": [
+                                {
+                                    "name": "Components",
+                                    "valueType": "array",
+                                    "value": []
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }
