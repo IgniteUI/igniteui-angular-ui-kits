@@ -177,6 +177,89 @@
                 "value": "Unchecked"
               }
             ]
+        },
+        {
+            "name": "Card",
+            "properties": [
+                {
+                    "name": "Type",
+                    "valueType": "enum",
+                    "enumType": {
+                        "elevated": "Elevated",
+                        "outlined": "Outlined"
+                    },
+                    "value": "Elevated"
+                },
+                {
+                    "name": "HeaderContent",
+                    "properties": [
+                        {
+                            "name": "Visible",
+                            "valueType": "boolean",
+                            "value": true
+                        },
+                        {
+                           "name": "Components",
+                           "valueType": "array",
+                           "value": [
+                               {
+                                   "name": "Text",
+                                   "type": "Title",
+                                   "value": "Title"
+                               },
+                               {
+                                   "name": "Text",
+                                   "type": "Subtitle",
+                                   "value": "Subtitle"
+                               }
+                           ]
+                        }
+                    ]
+                    
+                },
+                {
+                    "name": "BodyContent",
+                    "properties": [
+                        {
+                            "name": "Visible",
+                            "valueType": "boolean",
+                            "value": true
+                        },
+                        {
+                           "name": "Components",
+                           "valueType": "array",
+                           "value": []
+                        }]
+                },
+                {
+                    "name": "MediaContent",
+                    "properties": [
+                        {
+                            "name": "Visible",
+                            "valueType": "boolean",
+                            "value": false
+                        },
+                        {
+                           "name": "Components",
+                           "valueType": "array",
+                           "value": []
+                        }]
+                },
+                {
+                    "name": "ActionsContent",
+                    "properties": [
+                        {
+                            "name": "Visible",
+                            "valueType": "boolean",
+                            "value": true
+                        },
+                        {
+                           "name": "Components",
+                           "valueType": "array",
+                           "value": []
+                        }]
+                }
+            ]
         }
     ]
 }
