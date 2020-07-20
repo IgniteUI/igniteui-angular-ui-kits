@@ -441,6 +441,26 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "List",
+            "properties": [],
+            "childComponents": [
+                {
+                    "name": "ListItem",
+                    "properties": [
+                        {
+                            "name": "Type",
+                            "valueType": "enum",
+                            "enumType": {
+                                "header": "Header",
+                                "record": "Record"
+                            },
+                            "value": "Record"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
