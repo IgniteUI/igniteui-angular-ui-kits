@@ -461,6 +461,35 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Grid",
+            "properties": [
+            {
+              "name": "Density",
+              "enumType": {
+                "comfortable": "Comfortable",
+                "cosy": "Cosy",
+                "compact": "Compact"
+              },
+              "value": "Comfortable"
+            },
+            {
+              "name": "Features",
+              "type": "array",
+              "value": []
+            },
+            {
+              "name": "Columns",
+              "type": "array",
+              "value": []
+            },
+            {
+              "name": "Data",
+              "type": "array",
+              "value": []
+            }
+          ]
         }
     ]
 }
