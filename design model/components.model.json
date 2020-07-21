@@ -490,6 +490,62 @@
               "value": []
             }
           ]
+        },
+        {
+            "name": "Dialog",
+            "properties": [
+                {
+                    "name": "TitleContent",
+                    "properties": [
+                        {
+                           "name": "Components",
+                           "valueType": "array",
+                           "value": [
+                               {
+                                   "name": "Text",
+                                   "type": "Title",
+                                   "value": "Title"
+                               }
+                           ]
+                        }
+                    ]
+                },
+                {
+                    "name": "BodyContent",
+                    "properties": [
+                        {
+                           "name": "Components",
+                           "valueType": "array",
+                           "value": [
+                               {
+                                   "name": "Text",
+                                   "type": "Body",
+                                   "value": "Message"
+                               }
+                           ]
+                        }
+                    ]
+                },
+                {
+                    "name": "ActionsContent",
+                    "properties": [
+                        {
+                           "name": "Components",
+                           "valueType": "array",
+                           "value": [
+                               {
+                                   "name": "Button",
+                                   "type": "Flat"
+                               },
+                               {
+                                "name": "Button",
+                                "type": "Flat"
+                            }
+                           ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
