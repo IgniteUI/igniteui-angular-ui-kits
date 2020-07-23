@@ -127,7 +127,9 @@
                     "valueType": "enum",
                     "enumType": {
                         "text": "Text",
-                        "icon": "Icon"
+                        "icon": "Icon",
+                        "text+icon": "Text+Icon",
+                        "icon+text": "Icon+Text"
                     },
                     "value": "Text"
                 },
@@ -407,7 +409,32 @@
                             "value": ""
                         },
                         {
+                            "name": "Hint",
+                            "valueType": "object",
+                            "properties": [
+                                {
+                                    "name": "Visible",
+                                    "valueType": "boolean",
+                                    "value": true
+                                },
+                                {
+                                    "name": "Text",
+                                    "valueType": "string",
+                                    "value": "Hint Text"
+                                }
+                            ]
+                        },
+                        {
                             "name": "Type",
+                            "valueType": "enum",
+                            "enumType": {
+                                "line": "Line",
+                                "box": "Box",
+                                "border": "Border"
+                            }
+                        },
+                        {
+                            "name": "ContentType",
                             "valueType": "enum",
                             "enumType": {
                                 "text": "Text",
