@@ -182,14 +182,6 @@
             "name": "DatePicker",
             "properties": [
                 {
-                    "name": "Type",
-                    "valueType": "enum",
-                    "enumType": {
-                        "default": "Default",
-                        "actionbuttons": "Actionbuttons"
-                    }
-                },
-                {
                     "name": "Value",
                     "valueType": "date",
                     "value": ""
