@@ -308,39 +308,18 @@
         },
         {
             "name": "Card",
-            "properties": [
-                {
-                    "name": "Type",
-                    "valueType": "enum",
-                    "enumType": {
-                        "elevated": "Elevated",
-                        "outlined": "Outlined"
-                    },
-                    "value": "Elevated"
-                },
+            "children": [
                 {
                     "name": "HeaderContent",
                     "properties": [
                         {
                             "name": "Visible",
                             "valueType": "boolean",
-                            "value": true
+                            "value": "true"
                         },
                         {
                            "name": "Components",
-                           "valueType": "array",
-                           "value": [
-                               {
-                                   "name": "Text",
-                                   "type": "Title",
-                                   "value": "Title"
-                               },
-                               {
-                                   "name": "Text",
-                                   "type": "Subtitle",
-                                   "value": "Subtitle"
-                               }
-                           ]
+                           "valueType": "array"
                         }
                     ]
                     
@@ -351,12 +330,11 @@
                         {
                             "name": "Visible",
                             "valueType": "boolean",
-                            "value": true
+                            "value": "true"
                         },
                         {
                            "name": "Components",
-                           "valueType": "array",
-                           "value": []
+                           "valueType": "array"
                         }]
                 },
                 {
@@ -365,12 +343,11 @@
                         {
                             "name": "Visible",
                             "valueType": "boolean",
-                            "value": false
+                            "value": "false"
                         },
                         {
                            "name": "Components",
-                           "valueType": "array",
-                           "value": []
+                           "valueType": "array"
                         }]
                 },
                 {
@@ -379,85 +356,95 @@
                         {
                             "name": "Visible",
                             "valueType": "boolean",
-                            "value": true
+                            "value": "true"
                         },
                         {
                            "name": "Components",
-                           "valueType": "array",
-                           "value": []
+                           "valueType": "array"
                         }]
-                },
+                }
+            ],
+            "properties": [
                 {
-                    "name": "InputGroup",
+                    "name": "Type",
+                    "valueType": "enum",
+                    "enumType": {
+                        "elevated": "Elevated",
+                        "outlined": "Outlined"
+                    },
+                    "value": "Elevated"
+                }                
+            ]
+        },
+        {
+            "name": "InputGroup",
+            "children": [
+                {
+                    "name": "PrefixContainer",
                     "properties": [
                         {
-                            "name": "Label",
-                            "valueType": "string",
-                            "value": ""
-                        },
-                        {
-                            "name": "Value",
-                            "valueType": "string",
-                            "value": ""
-                        },
-                        {
-                            "name": "Hint",
-                            "valueType": "object",
-                            "properties": [
-                                {
-                                    "name": "Visible",
-                                    "valueType": "boolean",
-                                    "value": true
-                                },
-                                {
-                                    "name": "Text",
-                                    "valueType": "string",
-                                    "value": "Hint Text"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Type",
-                            "valueType": "enum",
-                            "enumType": {
-                                "line": "Line",
-                                "box": "Box",
-                                "border": "Border"
-                            }
-                        },
-                        {
-                            "name": "ContentType",
-                            "valueType": "enum",
-                            "enumType": {
-                                "text": "Text",
-                                "number": "Number",
-                                "email": "Email",
-                                "password": "Password",
-                                "date": "Date",
-                                "phone": "Phone"
-                            }
-                        },
-                        {
-                            "name": "PrefixContainer",
-                            "properties": [
-                                {
-                                    "name": "Components",
-                                    "valueType": "array",
-                                    "value": []
-                                }
-                            ]
-                        },
-                        {
-                            "name": "SuffixContainer",
-                            "properties": [
-                                {
-                                    "name": "Components",
-                                    "valueType": "array",
-                                    "value": []
-                                }
-                            ]
+                            "name": "Components",
+                            "valueType": "array"
                         }
                     ]
+                },
+                {
+                    "name": "SuffixContainer",
+                    "properties": [
+                        {
+                            "name": "Components",
+                            "valueType": "array"
+                        }
+                    ]
+                }
+            ],
+            "properties": [
+                {
+                    "name": "Label",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "Value",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "Hint",
+                    "valueType": "object",
+                    "properties": [
+                        {
+                            "name": "Visible",
+                            "valueType": "boolean",
+                            "value": true
+                        },
+                        {
+                            "name": "Text",
+                            "valueType": "string",
+                            "value": "Hint Text"
+                        }
+                    ]
+                },
+                {
+                    "name": "Type",
+                    "valueType": "enum",
+                    "enumType": {
+                        "line": "Line",
+                        "box": "Box",
+                        "border": "Border"
+                    }
+                },
+                {
+                    "name": "ContentType",
+                    "valueType": "enum",
+                    "enumType": {
+                        "text": "Text",
+                        "number": "Number",
+                        "email": "Email",
+                        "password": "Password",
+                        "date": "Date",
+                        "phone": "Phone"
+                    }
                 }
             ]
         },
