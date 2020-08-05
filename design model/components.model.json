@@ -247,13 +247,30 @@
             ]
         },
         {
-            "name": "Radio",
-            "properties": [
+            "name": "RadioGroup",
+            "childComponents": [
                 {
-                    "name": "Label",
-                    "valueType": "string",
-                    "value": ""
-                },
+                    "name": "Radio",
+                    "properties": [
+                        {
+                            "name": "Label",
+                            "valueType": "string",
+                            "value": ""
+                        },
+                        {
+                            "name": "Checked",
+                            "valueType": "boolean",
+                            "value": "false"
+                        },
+                        {
+                            "name": "Disabled",
+                            "valueType": "boolean",
+                            "value": "false"
+                        }  
+                    ]
+                }
+            ],
+            "properties": [
                 {
                     "name": "LabelPosition",
                     "valueType": "enum",
@@ -263,17 +280,7 @@
                         "after": "After"
                     },
                     "value": "None"
-                },
-                {
-                    "name": "Disabled",
-                    "valueType": "boolean",
-                    "value": "false"
-                },
-                {
-                    "name": "Checked",
-                    "valueType": "boolean",
-                    "value": "false"
-                }
+                }            
             ]
         },
         {
