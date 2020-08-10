@@ -142,6 +142,11 @@
                     "name": "Icon",
                     "valueType": "string",
                     "value": ""
+                },
+                {
+                    "name": "Disabled",
+                    "valueType": "boolean",
+                    "value": "false"
                 }
             ]
         },
@@ -168,16 +173,16 @@
                     "valueType": "boolean",
                     "value": "false"
                 },
-              {
-                "name": "State",
-                "valueType": "enum",
-                "enumType": {
-                  "checked": "Checked",
-                  "unchecked": "Unchecked",
-                  "indeterminate": "Indeterminate"
-                },
-                "value": "Unchecked"
-              }
+                {
+                    "name": "State",
+                    "valueType": "enum",
+                    "enumType": {
+                        "checked": "Checked",
+                        "unchecked": "Unchecked",
+                        "indeterminate": "Indeterminate"
+                    },
+                    "value": "Unchecked"
+                }
             ]
         },
         {
@@ -318,8 +323,8 @@
                     "name": "Shape",
                     "valueType": "enum",
                     "enumType": {
-                      "round": "round",
-                      "square": "square"
+                        "round": "round",
+                        "square": "square"
                     },
                     "value": "Round"
                 },
@@ -364,7 +369,7 @@
                             "name": "Disabled",
                             "valueType": "boolean",
                             "value": "false"
-                        }  
+                        }
                     ]
                 }
             ],
@@ -378,7 +383,7 @@
                         "after": "After"
                     },
                     "value": "None"
-                }            
+                }
             ]
         },
         {
@@ -423,11 +428,10 @@
                             "value": "true"
                         },
                         {
-                           "name": "Components",
-                           "valueType": "array"
+                            "name": "Components",
+                            "valueType": "array"
                         }
                     ]
-                    
                 },
                 {
                     "name": "BodyContent",
@@ -438,9 +442,10 @@
                             "value": "true"
                         },
                         {
-                           "name": "Components",
-                           "valueType": "array"
-                        }]
+                            "name": "Components",
+                            "valueType": "array"
+                        }
+                    ]
                 },
                 {
                     "name": "MediaContent",
@@ -451,9 +456,10 @@
                             "value": "false"
                         },
                         {
-                           "name": "Components",
-                           "valueType": "array"
-                        }]
+                            "name": "Components",
+                            "valueType": "array"
+                        }
+                    ]
                 },
                 {
                     "name": "ActionsContent",
@@ -464,9 +470,10 @@
                             "value": "true"
                         },
                         {
-                           "name": "Components",
-                           "valueType": "array"
-                        }]
+                            "name": "Components",
+                            "valueType": "array"
+                        }
+                    ]
                 }
             ],
             "properties": [
@@ -478,7 +485,7 @@
                         "outlined": "Outlined"
                     },
                     "value": "Elevated"
-                }                
+                }
             ]
         },
         {
@@ -576,28 +583,28 @@
         {
             "name": "Grid",
             "properties": [
-            {
-              "name": "Density",
-              "enumType": {
-                "comfortable": "Comfortable",
-                "cosy": "Cosy",
-                "compact": "Compact"
-              },
-              "value": "Comfortable"
-            },
-            {
-              "name": "Features",
-              "valueType": "array"
-            },
-            {
-              "name": "Columns",
-              "valueType": "array"
-            },
-            {
-              "name": "Data",
-              "valueType": "array"
-            }
-          ]
+                {
+                    "name": "Density",
+                    "enumType": {
+                        "comfortable": "Comfortable",
+                        "cosy": "Cosy",
+                        "compact": "Compact"
+                    },
+                    "value": "Comfortable"
+                },
+                {
+                    "name": "Features",
+                    "valueType": "array"
+                },
+                {
+                    "name": "Columns",
+                    "valueType": "array"
+                },
+                {
+                    "name": "Data",
+                    "valueType": "array"
+                }
+            ]
         },
         {
             "name": "Dialog",
@@ -606,15 +613,15 @@
                     "name": "TitleContent",
                     "properties": [
                         {
-                           "name": "Components",
-                           "valueType": "array",
-                           "value": [
-                               {
-                                   "name": "Text",
-                                   "type": "Title",
-                                   "value": "Title"
-                               }
-                           ]
+                            "name": "Components",
+                            "valueType": "array",
+                            "value": [
+                                {
+                                    "name": "Text",
+                                    "type": "Title",
+                                    "value": "Title"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -622,15 +629,15 @@
                     "name": "BodyContent",
                     "properties": [
                         {
-                           "name": "Components",
-                           "valueType": "array",
-                           "value": [
-                               {
-                                   "name": "Text",
-                                   "type": "Body",
-                                   "value": "Message"
-                               }
-                           ]
+                            "name": "Components",
+                            "valueType": "array",
+                            "value": [
+                                {
+                                    "name": "Text",
+                                    "type": "Body",
+                                    "value": "Message"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -638,18 +645,18 @@
                     "name": "ActionsContent",
                     "properties": [
                         {
-                           "name": "Components",
-                           "valueType": "array",
-                           "value": [
-                               {
-                                   "name": "Button",
-                                   "type": "Flat"
-                               },
-                               {
-                                "name": "Button",
-                                "type": "Flat"
-                            }
-                           ]
+                            "name": "Components",
+                            "valueType": "array",
+                            "value": [
+                                {
+                                    "name": "Button",
+                                    "type": "Flat"
+                                },
+                                {
+                                    "name": "Button",
+                                    "type": "Flat"
+                                }
+                            ]
                         }
                     ]
                 }
