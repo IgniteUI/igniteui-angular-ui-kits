@@ -194,6 +194,15 @@
                     "value": ""
                 },
                 {
+                    "name": "Layout",
+                    "valueType": "enum",
+                    "enumType": {
+                        "vertical": "Vertical",
+                        "horizontal": "Horizontal"
+                    },
+                    "value": "Horizontal"
+                },
+                {
                     "name": "Mode",
                     "valueType": "enum",
                     "enumType": {
@@ -203,13 +212,102 @@
                     "value": "dialog"
                 },
                 {
-                    "name": "State",
+                    "name": "Disabled",
+                    "valueType": "boolean",
+                    "value": "false"
+                }
+            ],
+            "children": [
+                {
+                    "name": "EditorContent",
+                    "properties": [
+                        {
+                            "name": "Visible",
+                            "valueType": "boolean",
+                            "value": "true"
+                        },
+                        {
+                           "name": "Components",
+                           "valueType": "array"
+                        }
+                    ]
+                },
+                {
+                    "name": "ActionButtonsContent",
+                    "properties": [
+                        {
+                            "name": "Visible",
+                            "valueType": "boolean",
+                            "value": "true"
+                        },
+                        {
+                           "name": "Components",
+                           "valueType": "array"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "TimePicker",
+            "properties": [
+                {
+                    "name": "Value",
+                    "valueType": "date",
+                    "value": ""
+                },
+                {
+                    "name": "Layout",
                     "valueType": "enum",
                     "enumType": {
-                        "default": "Default",
-                        "disabled": "Disabled"
+                        "vertical": "Vertical",
+                        "horizontal": "Horizontal"
                     },
-                    "value": "default"
+                    "value": "Horizontal"
+                },
+                {
+                    "name": "Mode",
+                    "valueType": "enum",
+                    "enumType": {
+                        "dropdown": "Dropdown",
+                        "dialog": "Dialog"
+                    },
+                    "value": "dialog"
+                },
+                {
+                    "name": "Disabled",
+                    "valueType": "boolean",
+                    "value": "false"
+                }
+            ],
+            "children": [
+                {
+                    "name": "EditorContent",
+                    "properties": [
+                        {
+                            "name": "Visible",
+                            "valueType": "boolean",
+                            "value": "true"
+                        },
+                        {
+                           "name": "Components",
+                           "valueType": "array"
+                        }
+                    ]
+                },
+                {
+                    "name": "ActionButtonsContent",
+                    "properties": [
+                        {
+                            "name": "Visible",
+                            "valueType": "boolean",
+                            "value": "true"
+                        },
+                        {
+                           "name": "Components",
+                           "valueType": "array"
+                        }
+                    ]
                 }
             ]
         },
