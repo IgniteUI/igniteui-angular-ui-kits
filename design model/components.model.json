@@ -608,7 +608,7 @@
         },
         {
             "name": "Dialog",
-            "properties": [
+            "children": [
                 {
                     "name": "TitleContent",
                     "properties": [
