@@ -614,14 +614,7 @@
                     "properties": [
                         {
                             "name": "Components",
-                            "valueType": "array",
-                            "value": [
-                                {
-                                    "name": "Text",
-                                    "type": "Title",
-                                    "value": "Title"
-                                }
-                            ]
+                            "valueType": "array"
                         }
                     ]
                 },
@@ -630,14 +623,7 @@
                     "properties": [
                         {
                             "name": "Components",
-                            "valueType": "array",
-                            "value": [
-                                {
-                                    "name": "Text",
-                                    "type": "Body",
-                                    "value": "Message"
-                                }
-                            ]
+                            "valueType": "array"
                         }
                     ]
                 },
@@ -646,17 +632,7 @@
                     "properties": [
                         {
                             "name": "Components",
-                            "valueType": "array",
-                            "value": [
-                                {
-                                    "name": "Button",
-                                    "type": "Flat"
-                                },
-                                {
-                                    "name": "Button",
-                                    "type": "Flat"
-                                }
-                            ]
+                            "valueType": "array"
                         }
                     ]
                 }
