@@ -364,11 +364,6 @@
                             "name": "Checked",
                             "valueType": "boolean",
                             "value": "false"
-                        },
-                        {
-                            "name": "Disabled",
-                            "valueType": "boolean",
-                            "value": "false"
                         }
                     ]
                 }
@@ -383,6 +378,11 @@
                         "after": "After"
                     },
                     "value": "None"
+                }, 
+                {
+                    "name": "Disabled",
+                    "valueType": "boolean",
+                    "value": "false"
                 }
             ]
         },
