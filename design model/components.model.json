@@ -85,26 +85,26 @@
                         "months": "Months",
                         "years": "Years"
                     },
-                    "value": "Default"
+                    "value": "Days"
                 },
                 {
                     "name": "Value",
-                    "valueType": "date",
+                    "valueType": "string",
                     "value": ""
                 },
                 {
                     "name": "WeekStart",
                     "valueType": "enum",
                     "enumType": {
-                        "Sunday": "0",
-                        "Monday": "1",
-                        "Tuesday": "2",
-                        "Wednesday": "3",
-                        "Thursday": "4",
-                        "Friday": "5",
-                        "Saturday": "6"
+                        "0": "Sunday",
+                        "1": "Monday",
+                        "2": "Tuesday",
+                        "3": "Wednesday",
+                        "4": "Thursday",
+                        "5": "Friday",
+                        "6": "Saturday"
                     },
-                    "value": "0"
+                    "value": "Sunday"
                 }
             ]
         },
