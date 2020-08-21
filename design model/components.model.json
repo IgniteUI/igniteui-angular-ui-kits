@@ -323,13 +323,13 @@
                     "name": "Shape",
                     "valueType": "enum",
                     "enumType": {
-                        "round": "round",
-                        "square": "square"
+                        "circle": "Circle",
+                        "square": "Square"
                     },
                     "value": "Round"
                 },
                 {
-                    "name": "Type",
+                    "name": "ContentType",
                     "valueType": "enum",
                     "enumType": {
                         "Icon": "Icon",
@@ -557,6 +557,11 @@
                         "date": "Date",
                         "phone": "Phone"
                     }
+                },
+                {
+                    "name": "Disabled",
+                    "valueType": "boolean",
+                    "value": "false"
                 }
             ]
         },
