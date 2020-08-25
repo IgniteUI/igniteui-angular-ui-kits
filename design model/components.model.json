@@ -222,7 +222,7 @@
                     "defaultValue": "false"
                 }
             ],
-            "children": [
+            "childComponents": [
                 {
                     "name": "EditorContent",
                     "properties": [
@@ -285,7 +285,7 @@
                     "defaultValue": "false"
                 }
             ],
-            "children": [
+            "childComponents": [
                 {
                     "name": "EditorContent",
                     "properties": [
@@ -418,7 +418,7 @@
         },
         {
             "name": "Card",
-            "children": [
+            "childComponents": [
                 {
                     "name": "HeaderContent",
                     "properties": [
@@ -490,7 +490,7 @@
         },
         {
             "name": "InputGroup",
-            "children": [
+            "childComponents": [
                 {
                     "name": "PrefixContainer",
                     "properties": [
@@ -613,7 +613,7 @@
         },
         {
             "name": "Dialog",
-            "children": [
+            "childComponents": [
                 {
                     "name": "TitleContent",
                     "properties": [
