@@ -12,7 +12,7 @@
                         "image": "Image",
                         "icon": "Icon"
                     },
-                    "value": "Icon"
+                    "defaultValue": "Icon"
                 },
                 {
                     "name": "Size",
@@ -22,7 +22,7 @@
                         "medium": "Medium",
                         "large": "Large"
                     },
-                    "value": "Medium"
+                    "defaultValue": "Medium"
                 },
                 {
                     "name": "Shape",
@@ -31,17 +31,17 @@
                         "circle": "Circle",
                         "square": "Square"
                     },
-                    "value": "Circle"
+                    "defaultValue": "Circle"
                 },
                 {
                     "name": "Initials",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "Image",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "Icon",
@@ -55,12 +55,12 @@
                 {
                     "name": "Name",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "Color",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 }
             ]
         },
@@ -75,7 +75,7 @@
                         "vertical": "Vertical",
                         "horizontal": "Horizontal"
                     },
-                    "value": "Default"
+                    "defaultValue": "Default"
                 },
                 {
                     "name": "ContentType",
@@ -85,12 +85,12 @@
                         "months": "Months",
                         "years": "Years"
                     },
-                    "value": "Days"
+                    "defaultValue": "Days"
                 },
                 {
                     "name": "Value",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "WeekStart",
@@ -104,7 +104,7 @@
                         "5": "Friday",
                         "6": "Saturday"
                     },
-                    "value": "Sunday"
+                    "defaultValue": "Sunday"
                 }
             ]
         },
@@ -131,22 +131,22 @@
                         "text+icon": "Text+Icon",
                         "icon+text": "Icon+Text"
                     },
-                    "value": "Text"
+                    "defaultValue": "Text"
                 },
                 {
                     "name": "Text",
                     "valueType": "string",
-                    "value": "Button"
+                    "defaultValue": "Button"
                 },
                 {
                     "name": "Icon",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "Disabled",
                     "valueType": "boolean",
-                    "value": "false"
+                    "defaultValue": "false"
                 }
             ]
         },
@@ -156,7 +156,7 @@
                 {
                     "name": "Label",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "LabelPosition",
@@ -166,12 +166,12 @@
                         "before": "Before",
                         "after": "After"
                     },
-                    "value": "None"
+                    "defaultValue": "None"
                 },
                 {
                     "name": "Disabled",
                     "valueType": "boolean",
-                    "value": "false"
+                    "defaultValue": "false"
                 },
                 {
                     "name": "State",
@@ -181,7 +181,7 @@
                         "unchecked": "Unchecked",
                         "indeterminate": "Indeterminate"
                     },
-                    "value": "Unchecked"
+                    "defaultValue": "Unchecked"
                 }
             ]
         },
@@ -191,12 +191,12 @@
                 {
                     "name": "Value",
                     "valueType": "date",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "Months",
                     "valueType": "number",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "Layout",
@@ -205,7 +205,7 @@
                         "vertical": "Vertical",
                         "horizontal": "Horizontal"
                     },
-                    "value": "Horizontal"
+                    "defaultValue": "Horizontal"
                 },
                 {
                     "name": "Mode",
@@ -214,12 +214,12 @@
                         "dropdown": "Dropdown",
                         "dialog": "Dialog"
                     },
-                    "value": "dialog"
+                    "defaultValue": "dialog"
                 },
                 {
                     "name": "Disabled",
                     "valueType": "boolean",
-                    "value": "false"
+                    "defaultValue": "false"
                 }
             ],
             "children": [
@@ -229,7 +229,7 @@
                         {
                             "name": "Visible",
                             "valueType": "boolean",
-                            "value": "true"
+                            "defaultValue": "true"
                         },
                         {
                            "name": "Components",
@@ -243,7 +243,7 @@
                         {
                             "name": "Visible",
                             "valueType": "boolean",
-                            "value": "true"
+                            "defaultValue": "true"
                         },
                         {
                            "name": "Components",
@@ -259,7 +259,7 @@
                 {
                     "name": "Value",
                     "valueType": "date",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "Layout",
@@ -268,7 +268,7 @@
                         "vertical": "Vertical",
                         "horizontal": "Horizontal"
                     },
-                    "value": "Horizontal"
+                    "defaultValue": "Horizontal"
                 },
                 {
                     "name": "Mode",
@@ -277,12 +277,12 @@
                         "dropdown": "Dropdown",
                         "dialog": "Dialog"
                     },
-                    "value": "dialog"
+                    "defaultValue": "dialog"
                 },
                 {
                     "name": "Disabled",
                     "valueType": "boolean",
-                    "value": "false"
+                    "defaultValue": "false"
                 }
             ],
             "children": [
@@ -292,7 +292,7 @@
                         {
                             "name": "Visible",
                             "valueType": "boolean",
-                            "value": "true"
+                            "defaultValue": "true"
                         },
                         {
                            "name": "Components",
@@ -306,7 +306,7 @@
                         {
                             "name": "Visible",
                             "valueType": "boolean",
-                            "value": "true"
+                            "defaultValue": "true"
                         },
                         {
                            "name": "Components",
@@ -326,7 +326,7 @@
                         "circle": "Circle",
                         "square": "Square"
                     },
-                    "value": "Round"
+                    "defaultValue": "Round"
                 },
                 {
                     "name": "ContentType",
@@ -335,17 +335,17 @@
                         "Icon": "Icon",
                         "Text": "Text"
                     },
-                    "value": "Icon"
+                    "defaultValue": "Icon"
                 },
                 {
                     "name": "Icon",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "Text",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 }
             ]
         },
@@ -358,12 +358,12 @@
                         {
                             "name": "Label",
                             "valueType": "string",
-                            "value": ""
+                            "defaultValue": ""
                         },
                         {
                             "name": "Checked",
                             "valueType": "boolean",
-                            "value": "false"
+                            "defaultValue": "false"
                         }
                     ]
                 }
@@ -377,12 +377,12 @@
                         "before": "Before",
                         "after": "After"
                     },
-                    "value": "None"
+                    "defaultValue": "None"
                 }, 
                 {
                     "name": "Disabled",
                     "valueType": "boolean",
-                    "value": "false"
+                    "defaultValue": "false"
                 }
             ]
         },
@@ -392,7 +392,7 @@
                 {
                     "name": "Label",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "LabelPosition",
@@ -402,17 +402,17 @@
                         "before": "Before",
                         "after": "After"
                     },
-                    "value": "None"
+                    "defaultValue": "None"
                 },
                 {
                     "name": "Disabled",
                     "valueType": "boolean",
-                    "value": "false"
+                    "defaultValue": "false"
                 },
                 {
                     "name": "Checked",
                     "valueType": "boolean",
-                    "value": "false"
+                    "defaultValue": "false"
                 }
             ]
         },
@@ -425,7 +425,7 @@
                         {
                             "name": "Visible",
                             "valueType": "boolean",
-                            "value": "true"
+                            "defaultValue": "true"
                         },
                         {
                             "name": "Components",
@@ -439,7 +439,7 @@
                         {
                             "name": "Visible",
                             "valueType": "boolean",
-                            "value": "true"
+                            "defaultValue": "true"
                         },
                         {
                             "name": "Components",
@@ -453,7 +453,7 @@
                         {
                             "name": "Visible",
                             "valueType": "boolean",
-                            "value": "false"
+                            "defaultValue": "false"
                         },
                         {
                             "name": "Components",
@@ -467,7 +467,7 @@
                         {
                             "name": "Visible",
                             "valueType": "boolean",
-                            "value": "true"
+                            "defaultValue": "true"
                         },
                         {
                             "name": "Components",
@@ -484,7 +484,7 @@
                         "elevated": "Elevated",
                         "outlined": "Outlined"
                     },
-                    "value": "Elevated"
+                    "defaultValue": "Elevated"
                 }
             ]
         },
@@ -514,12 +514,12 @@
                 {
                     "name": "Label",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "Value",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "Hint",
@@ -528,12 +528,12 @@
                         {
                             "name": "Visible",
                             "valueType": "boolean",
-                            "value": true
+                            "defaultValue": true
                         },
                         {
                             "name": "Text",
                             "valueType": "string",
-                            "value": "Hint Text"
+                            "defaultValue": "Hint Text"
                         }
                     ]
                 },
@@ -561,7 +561,7 @@
                 {
                     "name": "Disabled",
                     "valueType": "boolean",
-                    "value": "false"
+                    "defaultValue": "false"
                 }
             ]
         },
@@ -579,7 +579,7 @@
                                 "header": "Header",
                                 "record": "Record"
                             },
-                            "value": "Record"
+                            "defaultValue": "Record"
                         }
                     ]
                 }
@@ -595,7 +595,7 @@
                         "cosy": "Cosy",
                         "compact": "Compact"
                     },
-                    "value": "Comfortable"
+                    "defaultValue": "Comfortable"
                 },
                 {
                     "name": "Features",
