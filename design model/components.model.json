@@ -194,9 +194,18 @@
                     "defaultValue": ""
                 },
                 {
-                    "name": "Vertical",
-                    "valueType": "boolean",
-                    "defaultValue": "false"
+                    "name": "MonthViews",
+                    "valueType": "number",
+                    "defaultValue": "1"
+                },
+                {	
+                    "name": "Layout",	
+                    "valueType": "enum",	
+                    "enumType": {	
+                        "vertical": "Vertical",	
+                        "horizontal": "Horizontal"	
+                    },	
+                    "defaultValue": "Horizontal"	
                 },
                 {
                     "name": "Mode",
