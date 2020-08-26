@@ -587,6 +587,107 @@
         },
         {
             "name": "Grid",
+            "childComponents": [{
+                "name": "Column",
+                "properties": [
+                    {
+                        "name": "Header",
+                        "valueType": "string"
+                    },
+                    {
+                        "name": "DataType",
+                        "valueType": "string"
+                    },
+                    {
+                        "name": "Sortable",
+                        "valueType": "boolean"
+                    },
+                    {
+                        "name": "Filterable",
+                        "valueType": "boolean"
+                    },
+                    {
+                        "name": "Pinned",
+                        "valueType": "boolean",
+                        "defaultValue": "false"
+                    },
+                    {
+                        "name": "Resizable",
+                        "valueType": "boolean",
+                        "defaultValue": "false"
+                    },
+                    {
+                        "name": "Movable",
+                        "valueType": "boolean",
+                        "defaultValue": "false"
+                    },
+                    {
+                        "name": "Editable",
+                        "valueType": "boolean",
+                        "defaultValue": "false"
+                    }
+                ]
+            }],
+            "features": [
+                {
+                    "name": "Paging"
+                },
+                {
+                    "name": "Summaries"
+                },
+                {
+                    "name": "Filtering",
+                    "properties": [
+                        {
+                            "name": "Mode",
+                            "valueType": "enum",
+                            "enumType": {
+                                "quickFilter": "QuickFilter",
+                                "excelStyleFilter": "ExcelStyleFilter"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Toolbar",
+                    "features": [
+                        {
+                            "name": "ColumnHiding"
+                        },
+                        {
+                            "name": "ColumnPinning"
+                        },
+                        {
+                            "name": "Export"
+                        }
+                    ],
+                    "properties": [
+                        {
+                            "name": "Title",
+                            "valueType": "string"
+                        },
+                        {
+                            "name": "Features",
+                            "valueType": "array"
+                        }
+                    ]
+                },
+                {
+                    "name": "RowEditing"
+                },
+                {
+                    "name": "CellSelection"
+                },
+                {
+                    "name": "RowSelection"
+                },
+                {
+                    "name": "ColumnSelection"
+                },
+                {
+                    "name": "Grouping"
+                }
+            ],
             "properties": [
                 {
                     "name": "Density",
@@ -595,18 +696,11 @@
                         "cosy": "Cosy",
                         "compact": "Compact"
                     },
+                    "valueType": "enum",
                     "defaultValue": "Comfortable"
                 },
                 {
                     "name": "Features",
-                    "valueType": "array"
-                },
-                {
-                    "name": "Columns",
-                    "valueType": "array"
-                },
-                {
-                    "name": "Data",
                     "valueType": "array"
                 }
             ]
