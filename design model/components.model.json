@@ -194,18 +194,9 @@
                     "defaultValue": ""
                 },
                 {
-                    "name": "Months",
-                    "valueType": "number",
-                    "defaultValue": ""
-                },
-                {
-                    "name": "Layout",
-                    "valueType": "enum",
-                    "enumType": {
-                        "vertical": "Vertical",
-                        "horizontal": "Horizontal"
-                    },
-                    "defaultValue": "Horizontal"
+                    "name": "Vertical",
+                    "valueType": "boolean",
+                    "defaultValue": "false"
                 },
                 {
                     "name": "Mode",
@@ -220,6 +211,20 @@
                     "name": "Disabled",
                     "valueType": "boolean",
                     "defaultValue": "false"
+                },
+                {
+                    "name": "WeekStart",
+                    "valueType": "enum",
+                    "enumType": {
+                        "0": "Sunday",
+                        "1": "Monday",
+                        "2": "Tuesday",
+                        "3": "Wednesday",
+                        "4": "Thursday",
+                        "5": "Friday",
+                        "6": "Saturday"
+                    },
+                    "defaultValue": "Sunday"
                 }
             ],
             "childComponents": [
