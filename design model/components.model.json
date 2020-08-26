@@ -232,8 +232,8 @@
                             "defaultValue": "true"
                         },
                         {
-                           "name": "Components",
-                           "valueType": "array"
+                            "name": "Components",
+                            "valueType": "array"
                         }
                     ]
                 },
@@ -246,8 +246,8 @@
                             "defaultValue": "true"
                         },
                         {
-                           "name": "Components",
-                           "valueType": "array"
+                            "name": "Components",
+                            "valueType": "array"
                         }
                     ]
                 }
@@ -295,8 +295,8 @@
                             "defaultValue": "true"
                         },
                         {
-                           "name": "Components",
-                           "valueType": "array"
+                            "name": "Components",
+                            "valueType": "array"
                         }
                     ]
                 },
@@ -309,8 +309,8 @@
                             "defaultValue": "true"
                         },
                         {
-                           "name": "Components",
-                           "valueType": "array"
+                            "name": "Components",
+                            "valueType": "array"
                         }
                     ]
                 }
@@ -378,7 +378,7 @@
                         "after": "After"
                     },
                     "defaultValue": "None"
-                }, 
+                },
                 {
                     "name": "Disabled",
                     "valueType": "boolean",
@@ -587,47 +587,146 @@
         },
         {
             "name": "Grid",
-            "childComponents": [{
-                "name": "Column",
-                "properties": [
-                    {
-                        "name": "Header",
-                        "valueType": "string"
-                    },
-                    {
-                        "name": "DataType",
-                        "valueType": "string"
-                    },
-                    {
-                        "name": "Sortable",
-                        "valueType": "boolean"
-                    },
-                    {
-                        "name": "Filterable",
-                        "valueType": "boolean"
-                    },
-                    {
-                        "name": "Pinned",
-                        "valueType": "boolean",
-                        "defaultValue": "false"
-                    },
-                    {
-                        "name": "Resizable",
-                        "valueType": "boolean",
-                        "defaultValue": "false"
-                    },
-                    {
-                        "name": "Movable",
-                        "valueType": "boolean",
-                        "defaultValue": "false"
-                    },
-                    {
-                        "name": "Editable",
-                        "valueType": "boolean",
-                        "defaultValue": "false"
-                    }
-                ]
-            }],
+            "childComponents": [
+                {
+                    "name": "Column",
+                    "features": [
+                        {
+                            "name": "Sorting",
+                            "properties": [
+                                {
+                                    "name": "Enabled",
+                                    "defaultValue": "false",
+                                    "valueType": "boolean"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Filtering",
+                            "properties": [
+                                {
+                                    "name": "Enabled",
+                                    "defaultValue": "true",
+                                    "valueType": "boolean"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Resizing",
+                            "properties": [
+                                {
+                                    "name": "Enabled",
+                                    "defaultValue": "true",
+                                    "valueType": "boolean"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Editing",
+                            "properties": [
+                                {
+                                    "name": "Enabled",
+                                    "defaultValue": "false",
+                                    "valueType": "boolean"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Pinning",
+                            "properties": [
+                                {
+                                    "name": "Enabled",
+                                    "defaultValue": "true",
+                                    "valueType": "boolean"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Moving",
+                            "properties": [
+                                {
+                                    "name": "Enabled",
+                                    "defaultValue": "false",
+                                    "valueType": "boolean"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Hiding",
+                            "properties": [
+                                {
+                                    "name": "Enabled",
+                                    "defaultValue": "true",
+                                    "valueType": "boolean"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Search",
+                            "properties": [
+                                {
+                                    "name": "Enabled",
+                                    "defaultValue": "false",
+                                    "valueType": "boolean"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Selection",
+                            "properties": [
+                                {
+                                    "name": "Enabled",
+                                    "defaultValue": "false",
+                                    "valueType": "boolean"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Grouping",
+                            "properties": [
+                                {
+                                    "name": "Enabled",
+                                    "defaultValue": "false",
+                                    "valueType": "boolean"
+                                }
+                            ]
+                        }
+                    ],
+                    "properties": [
+                        {
+                            "name": "HeaderText",
+                            "valueType": "string"
+                        },
+                        {
+                            "name": "FieldName",
+                            "valueType": "string"
+                        },
+                        {
+                            "name": "DataType",
+                            "valueType": "string"
+                        },
+                        {
+                            "name": "Width",
+                            "valueType": "string"
+                        },
+                        {
+                            "name": "Pinned",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
+                        }, 
+                        {
+                            "name": "Hidden",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
+                        },
+                        {
+                            "name": "Selected",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
+                        }
+                    ]
+                }
+            ],
             "features": [
                 {
                     "name": "Paging",
@@ -635,7 +734,7 @@
                         {
                             "name": "Enabled",
                             "defaultValue": "false",
-                            "valueType":"boolean"
+                            "valueType": "boolean"
                         }
                     ]
                 },
@@ -645,7 +744,7 @@
                         {
                             "name": "Enabled",
                             "defaultValue": "false",
-                            "valueType":"boolean"
+                            "valueType": "boolean"
                         }
                     ]
                 },
@@ -655,7 +754,7 @@
                         {
                             "name": "Enabled",
                             "defaultValue": "false",
-                            "valueType":"boolean"
+                            "valueType": "boolean"
                         },
                         {
                             "name": "Mode",
@@ -677,7 +776,7 @@
                                 {
                                     "name": "Enabled",
                                     "defaultValue": "false",
-                                    "valueType":"boolean"
+                                    "valueType": "boolean"
                                 }
                             ]
                         },
@@ -687,7 +786,7 @@
                                 {
                                     "name": "Enabled",
                                     "defaultValue": "false",
-                                    "valueType":"boolean"
+                                    "valueType": "boolean"
                                 }
                             ]
                         },
@@ -697,7 +796,7 @@
                                 {
                                     "name": "Enabled",
                                     "defaultValue": "false",
-                                    "valueType":"boolean"
+                                    "valueType": "boolean"
                                 }
                             ]
                         }
@@ -706,7 +805,7 @@
                         {
                             "name": "Enabled",
                             "defaultValue": "false",
-                            "valueType":"boolean"
+                            "valueType": "boolean"
                         },
                         {
                             "name": "Title",
@@ -724,7 +823,7 @@
                         {
                             "name": "Enabled",
                             "defaultValue": "false",
-                            "valueType":"boolean"
+                            "valueType": "boolean"
                         }
                     ]
                 },
@@ -734,7 +833,7 @@
                         {
                             "name": "Enabled",
                             "defaultValue": "false",
-                            "valueType":"boolean"
+                            "valueType": "boolean"
                         }
                     ]
                 },
@@ -744,27 +843,7 @@
                         {
                             "name": "Enabled",
                             "defaultValue": "false",
-                            "valueType":"boolean"
-                        }
-                    ]
-                },
-                {
-                    "name": "ColumnSelection",
-                    "properties": [
-                        {
-                            "name": "Enabled",
-                            "defaultValue": "false",
-                            "valueType":"boolean"
-                        }
-                    ]
-                },
-                {
-                    "name": "Grouping",
-                    "properties": [
-                        {
-                            "name": "Enabled",
-                            "defaultValue": "false",
-                            "valueType":"boolean"
+                            "valueType": "boolean"
                         }
                     ]
                 }
