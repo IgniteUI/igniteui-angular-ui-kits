@@ -630,21 +630,41 @@
             }],
             "features": [
                 {
-                    "name": "Paging"
+                    "name": "Paging",
+                    "properties": [
+                        {
+                            "name": "Enabled",
+                            "defaultValue": "false",
+                            "valueType":"boolean"
+                        }
+                    ]
                 },
                 {
-                    "name": "Summaries"
+                    "name": "Summaries",
+                    "properties": [
+                        {
+                            "name": "Enabled",
+                            "defaultValue": "false",
+                            "valueType":"boolean"
+                        }
+                    ]
                 },
                 {
                     "name": "Filtering",
                     "properties": [
+                        {
+                            "name": "Enabled",
+                            "defaultValue": "false",
+                            "valueType":"boolean"
+                        },
                         {
                             "name": "Mode",
                             "valueType": "enum",
                             "enumType": {
                                 "quickFilter": "QuickFilter",
                                 "excelStyleFilter": "ExcelStyleFilter"
-                            }
+                            },
+                            "defaultValue": "QuickFilter"
                         }
                     ]
                 },
@@ -652,16 +672,42 @@
                     "name": "Toolbar",
                     "features": [
                         {
-                            "name": "ColumnHiding"
+                            "name": "ColumnHiding",
+                            "properties": [
+                                {
+                                    "name": "Enabled",
+                                    "defaultValue": "false",
+                                    "valueType":"boolean"
+                                }
+                            ]
                         },
                         {
-                            "name": "ColumnPinning"
+                            "name": "ColumnPinning",
+                            "properties": [
+                                {
+                                    "name": "Enabled",
+                                    "defaultValue": "false",
+                                    "valueType":"boolean"
+                                }
+                            ]
                         },
                         {
-                            "name": "Export"
+                            "name": "Export",
+                            "properties": [
+                                {
+                                    "name": "Enabled",
+                                    "defaultValue": "false",
+                                    "valueType":"boolean"
+                                }
+                            ]
                         }
                     ],
                     "properties": [
+                        {
+                            "name": "Enabled",
+                            "defaultValue": "false",
+                            "valueType":"boolean"
+                        },
                         {
                             "name": "Title",
                             "valueType": "string"
@@ -673,19 +719,54 @@
                     ]
                 },
                 {
-                    "name": "RowEditing"
+                    "name": "RowEditing",
+                    "properties": [
+                        {
+                            "name": "Enabled",
+                            "defaultValue": "false",
+                            "valueType":"boolean"
+                        }
+                    ]
                 },
                 {
-                    "name": "CellSelection"
+                    "name": "CellSelection",
+                    "properties": [
+                        {
+                            "name": "Enabled",
+                            "defaultValue": "false",
+                            "valueType":"boolean"
+                        }
+                    ]
                 },
                 {
-                    "name": "RowSelection"
+                    "name": "RowSelection",
+                    "properties": [
+                        {
+                            "name": "Enabled",
+                            "defaultValue": "false",
+                            "valueType":"boolean"
+                        }
+                    ]
                 },
                 {
-                    "name": "ColumnSelection"
+                    "name": "ColumnSelection",
+                    "properties": [
+                        {
+                            "name": "Enabled",
+                            "defaultValue": "false",
+                            "valueType":"boolean"
+                        }
+                    ]
                 },
                 {
-                    "name": "Grouping"
+                    "name": "Grouping",
+                    "properties": [
+                        {
+                            "name": "Enabled",
+                            "defaultValue": "false",
+                            "valueType":"boolean"
+                        }
+                    ]
                 }
             ],
             "properties": [
@@ -698,10 +779,6 @@
                     },
                     "valueType": "enum",
                     "defaultValue": "Comfortable"
-                },
-                {
-                    "name": "Features",
-                    "valueType": "array"
                 }
             ]
         },
