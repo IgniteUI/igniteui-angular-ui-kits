@@ -590,108 +590,6 @@
             "childComponents": [
                 {
                     "name": "Column",
-                    "features": [
-                        {
-                            "name": "Sorting",
-                            "properties": [
-                                {
-                                    "name": "Enabled",
-                                    "defaultValue": "false",
-                                    "valueType": "boolean"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Filtering",
-                            "properties": [
-                                {
-                                    "name": "Enabled",
-                                    "defaultValue": "true",
-                                    "valueType": "boolean"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Resizing",
-                            "properties": [
-                                {
-                                    "name": "Enabled",
-                                    "defaultValue": "true",
-                                    "valueType": "boolean"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Editing",
-                            "properties": [
-                                {
-                                    "name": "Enabled",
-                                    "defaultValue": "false",
-                                    "valueType": "boolean"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Pinning",
-                            "properties": [
-                                {
-                                    "name": "Enabled",
-                                    "defaultValue": "true",
-                                    "valueType": "boolean"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Moving",
-                            "properties": [
-                                {
-                                    "name": "Enabled",
-                                    "defaultValue": "false",
-                                    "valueType": "boolean"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Hiding",
-                            "properties": [
-                                {
-                                    "name": "Enabled",
-                                    "defaultValue": "true",
-                                    "valueType": "boolean"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Search",
-                            "properties": [
-                                {
-                                    "name": "Enabled",
-                                    "defaultValue": "false",
-                                    "valueType": "boolean"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Selection",
-                            "properties": [
-                                {
-                                    "name": "Enabled",
-                                    "defaultValue": "false",
-                                    "valueType": "boolean"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Grouping",
-                            "properties": [
-                                {
-                                    "name": "Enabled",
-                                    "defaultValue": "false",
-                                    "valueType": "boolean"
-                                }
-                            ]
-                        }
-                    ],
                     "properties": [
                         {
                             "name": "HeaderText",
@@ -713,7 +611,7 @@
                             "name": "Pinned",
                             "valueType": "boolean",
                             "defaultValue": "false"
-                        }, 
+                        },
                         {
                             "name": "Hidden",
                             "valueType": "boolean",
@@ -723,127 +621,56 @@
                             "name": "Selected",
                             "valueType": "boolean",
                             "defaultValue": "false"
-                        }
-                    ]
-                }
-            ],
-            "features": [
-                {
-                    "name": "Paging",
-                    "properties": [
-                        {
-                            "name": "Enabled",
-                            "defaultValue": "false",
-                            "valueType": "boolean"
-                        }
-                    ]
-                },
-                {
-                    "name": "Summaries",
-                    "properties": [
-                        {
-                            "name": "Enabled",
-                            "defaultValue": "false",
-                            "valueType": "boolean"
-                        }
-                    ]
-                },
-                {
-                    "name": "Filtering",
-                    "properties": [
-                        {
-                            "name": "Enabled",
-                            "defaultValue": "false",
-                            "valueType": "boolean"
                         },
                         {
-                            "name": "Mode",
-                            "valueType": "enum",
-                            "enumType": {
-                                "quickFilter": "QuickFilter",
-                                "excelStyleFilter": "ExcelStyleFilter"
-                            },
-                            "defaultValue": "QuickFilter"
-                        }
-                    ]
-                },
-                {
-                    "name": "Toolbar",
-                    "features": [
-                        {
-                            "name": "ColumnHiding",
-                            "properties": [
-                                {
-                                    "name": "Enabled",
-                                    "defaultValue": "false",
-                                    "valueType": "boolean"
-                                }
-                            ]
+                            "name": "Sortable",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
                         },
                         {
-                            "name": "ColumnPinning",
-                            "properties": [
-                                {
-                                    "name": "Enabled",
-                                    "defaultValue": "false",
-                                    "valueType": "boolean"
-                                }
-                            ]
+                            "name": "Filterable",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
                         },
                         {
-                            "name": "Export",
-                            "properties": [
-                                {
-                                    "name": "Enabled",
-                                    "defaultValue": "false",
-                                    "valueType": "boolean"
-                                }
-                            ]
-                        }
-                    ],
-                    "properties": [
-                        {
-                            "name": "Enabled",
-                            "defaultValue": "false",
-                            "valueType": "boolean"
+                            "name": "Resizable",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
                         },
                         {
-                            "name": "Title",
-                            "valueType": "string"
+                            "name": "Editable",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
                         },
                         {
-                            "name": "Features",
-                            "valueType": "array"
-                        }
-                    ]
-                },
-                {
-                    "name": "RowEditing",
-                    "properties": [
+                            "name": "Pinable",
+                            "valueType": "boolean",
+                            "defaultValue": "true"
+                        },
                         {
-                            "name": "Enabled",
-                            "defaultValue": "false",
-                            "valueType": "boolean"
-                        }
-                    ]
-                },
-                {
-                    "name": "CellSelection",
-                    "properties": [
+                            "name": "Movable",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
+                        },
                         {
-                            "name": "Enabled",
-                            "defaultValue": "false",
-                            "valueType": "boolean"
-                        }
-                    ]
-                },
-                {
-                    "name": "RowSelection",
-                    "properties": [
+                            "name": "Hideable",
+                            "valueType": "boolean",
+                            "defaultValue": "true"
+                        },
                         {
-                            "name": "Enabled",
-                            "defaultValue": "false",
-                            "valueType": "boolean"
+                            "name": "Searchable",
+                            "valueType": "boolean",
+                            "defaultValue": "true"
+                        },
+                        {
+                            "name": "Selectable",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
+                        },
+                        {
+                            "name": "Groupable",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
                         }
                     ]
                 }
@@ -858,6 +685,46 @@
                     },
                     "valueType": "enum",
                     "defaultValue": "Comfortable"
+                },
+                {
+                    "name": "Paging",
+                    "valueType": "boolean",
+                    "defaultValue": "false"
+                },
+                {
+                    "name": "Filtering",
+                    "valueType": "enum",
+                    "enumType": {
+                        "quickFilter": "QuickFilter",
+                        "excelStyleFilter": "ExcelStyleFilter",
+                        "none": "None"
+                    },
+                    "defaultValue": "None"
+                },
+                {
+                    "name": "RowEditing",
+                    "valueType": "boolean",
+                    "defaultValue": "false"
+                },
+                {
+                    "name": "CellSelection",
+                    "valueType": "enum",
+                    "enumType": {
+                        "single": "Single",
+                        "multi": "Multi",
+                        "none": "None"
+                    },
+                    "defaultValue": "None"
+                },
+                {
+                    "name": "RowSelection",
+                    "valueType": "enum",
+                    "enumType": {
+                        "single": "Single",
+                        "multi": "Multi",
+                        "none": "None"
+                    },
+                    "defaultValue": "None"
                 }
             ]
         },
