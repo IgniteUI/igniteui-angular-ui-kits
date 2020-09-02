@@ -685,6 +685,11 @@
                             "name": "Groupable",
                             "valueType": "boolean",
                             "defaultValue": "false"
+                        },
+                        {
+                            "name": "Summary",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
                         }
                     ]
                 }
