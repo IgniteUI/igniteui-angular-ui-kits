@@ -606,7 +606,7 @@
                     "name": "Column",
                     "properties": [
                         {
-                            "name": "HeaderText",
+                            "name": "Header",
                             "valueType": "string"
                         },
                         {
