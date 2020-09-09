@@ -1,7 +1,9 @@
 {
     "name": "Infragistics Design System Components",
+    "id": "IGDSC",
     "components": [
         {
+            "id": "0",
             "name": "Avatar",
             "properties": [
                 {
@@ -50,6 +52,7 @@
             ]
         },
         {
+            "id": "1",
             "name": "Icon",
             "properties": [
                 {
@@ -65,6 +68,7 @@
             ]
         },
         {
+            "id": "2",
             "name": "Calendar",
             "properties": [
                 {
@@ -109,6 +113,7 @@
             ]
         },
         {
+            "id": "3",
             "name": "Button",
             "properties": [
                 {
@@ -151,6 +156,7 @@
             ]
         },
         {
+            "id": "4",
             "name": "Checkbox",
             "properties": [
                 {
@@ -186,6 +192,7 @@
             ]
         },
         {
+            "id": "5",
             "name": "DatePicker",
             "properties": [
                 {
@@ -238,6 +245,7 @@
             ],
             "childComponents": [
                 {
+                    "id": "5-0",
                     "name": "EditorContent",
                     "properties": [
                         {
@@ -252,6 +260,7 @@
                     ]
                 },
                 {
+                    "id": "5-1",
                     "name": "ActionButtonsContent",
                     "properties": [
                         {
@@ -268,6 +277,7 @@
             ]
         },
         {
+            "id": "6",
             "name": "TimePicker",
             "properties": [
                 {
@@ -301,6 +311,7 @@
             ],
             "childComponents": [
                 {
+                    "id": "6-0",
                     "name": "EditorContent",
                     "properties": [
                         {
@@ -315,6 +326,7 @@
                     ]
                 },
                 {
+                    "id": "6-1",
                     "name": "ActionButtonsContent",
                     "properties": [
                         {
@@ -331,6 +343,7 @@
             ]
         },
         {
+            "id": "7",
             "name": "Badge",
             "properties": [
                 {
@@ -364,9 +377,11 @@
             ]
         },
         {
+            "id": "8",
             "name": "RadioGroup",
             "childComponents": [
                 {
+                    "id": "8-0",
                     "name": "Radio",
                     "properties": [
                         {
@@ -401,6 +416,7 @@
             ]
         },
         {
+            "id": "9",
             "name": "Switch",
             "properties": [
                 {
@@ -431,9 +447,11 @@
             ]
         },
         {
+            "id": "10",
             "name": "Card",
             "childComponents": [
                 {
+                    "id": "10-0",
                     "name": "HeaderContent",
                     "properties": [
                         {
@@ -448,6 +466,7 @@
                     ]
                 },
                 {
+                    "id": "10-1",
                     "name": "BodyContent",
                     "properties": [
                         {
@@ -462,6 +481,7 @@
                     ]
                 },
                 {
+                    "id": "10-2",
                     "name": "MediaContent",
                     "properties": [
                         {
@@ -476,6 +496,7 @@
                     ]
                 },
                 {
+                    "id": "10-3",
                     "name": "ActionsContent",
                     "properties": [
                         {
@@ -503,9 +524,11 @@
             ]
         },
         {
+            "id": "11",
             "name": "InputGroup",
             "childComponents": [
                 {
+                    "id": "11-0",
                     "name": "PrefixContainer",
                     "properties": [
                         {
@@ -515,6 +538,7 @@
                     ]
                 },
                 {
+                    "id": "11-1",
                     "name": "SuffixContainer",
                     "properties": [
                         {
@@ -580,10 +604,12 @@
             ]
         },
         {
+            "id": "12",
             "name": "List",
             "properties": [],
             "childComponents": [
                 {
+                    "id": "12-0",
                     "name": "ListItem",
                     "properties": [
                         {
@@ -600,9 +626,11 @@
             ]
         },
         {
+            "id": "13",
             "name": "Grid",
             "childComponents": [
                 {
+                    "id": "13-0",
                     "name": "Column",
                     "properties": [
                         {
@@ -748,9 +776,11 @@
             ]
         },
         {
+            "id": "14",
             "name": "Dialog",
             "childComponents": [
                 {
+                    "id": "14-0",
                     "name": "TitleContent",
                     "properties": [
                         {
@@ -760,6 +790,7 @@
                     ]
                 },
                 {
+                    "id": "14-1",
                     "name": "BodyContent",
                     "properties": [
                         {
@@ -769,6 +800,7 @@
                     ]
                 },
                 {
+                    "id": "14-2",
                     "name": "ActionsContent",
                     "properties": [
                         {
