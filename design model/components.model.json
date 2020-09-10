@@ -42,7 +42,7 @@
                 },
                 {
                     "name": "Image",
-                    "valueType": "string",
+                    "valueType": "asset",
                     "defaultValue": ""
                 },
                 {
