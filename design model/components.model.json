@@ -973,6 +973,17 @@
                     "value": ""
                 }
             ]
+        },
+        {
+            "id": "19",
+            "name": "Toast",
+            "properties": [
+                {
+                    "name": "Message",
+                    "valueType": "string",
+                    "value": ""
+                }
+            ]
         }
     ]
 }
