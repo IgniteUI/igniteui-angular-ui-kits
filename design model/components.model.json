@@ -857,6 +857,52 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "15",
+            "name": "LinearBar",
+            "properties": [
+                {
+                    "name": "Value",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "Type",
+                    "valueType": "enum",
+                    "enumType": {
+                        "default": "Default",
+                        "info": "Info",
+                        "success": "Success",
+                        "warn": "Warn",
+                        "error": "Error"
+                    },
+                    "value": "Record"
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "name": "CircularBar",
+            "properties": [
+                {
+                    "name": "Value",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "Type",
+                    "valueType": "enum",
+                    "enumType": {
+                        "default": "Default",
+                        "info": "Info",
+                        "success": "Success",
+                        "warn": "Warn",
+                        "error": "Error"
+                    },
+                    "value": "Record"
+                }
+            ]
         }
     ]
 }
