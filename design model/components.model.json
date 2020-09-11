@@ -877,7 +877,7 @@
                         "warn": "Warn",
                         "error": "Error"
                     },
-                    "value": "Record"
+                    "value": "Default"
                 }
             ]
         },
@@ -900,7 +900,61 @@
                         "warn": "Warn",
                         "error": "Error"
                     },
-                    "value": "Record"
+                    "value": "Default"
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "name": "Slider",
+            "properties": [
+                {
+                    "name": "Value",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "ValueRange",
+                    "valueType": "object",
+                    "properties": [
+                        {
+                            "name": "lower",
+                            "valueType": "number"
+                        },
+                        {
+                            "name": "upper",
+                            "valueType": "number"
+                        }
+                    ]
+                },
+                {
+                    "name": "Type",
+                    "valueType": "enum",
+                    "enumType": {
+                        "slider": "Slider",
+                        "range": "Range"
+                    },
+                    "value": "Slider"
+                },
+                {
+                    "name": "Disabled",
+                    "valueType": "boolean",
+                    "defaultValue": "false"
+                },
+                {
+                    "name": "LabelText",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "LowerLabelText",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "UpperLabelText",
+                    "valueType": "string",
+                    "value": ""
                 }
             ]
         }
