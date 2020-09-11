@@ -585,6 +585,53 @@
             "childComponents": [
                 {
                     "name": "ListItem",
+                    "childComponents": [ 
+                        {
+                            "name": "LineTitleContent",
+                            "properties": [
+                                {
+                                    "name": "Components",
+                                    "valueType": "array"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LineSubTitleContent",
+                            "properties": [
+                                {
+                                    "name": "Components",
+                                    "valueType": "array"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "LineContent",
+                            "properties": [
+                                {
+                                    "name": "Components",
+                                    "valueType": "array"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ActionsContent",
+                            "properties": [
+                                {
+                                    "name": "Components",
+                                    "valueType": "array"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ThumbnailContent",
+                            "properties": [
+                                {
+                                    "name": "Components",
+                                    "valueType": "array"
+                                }
+                            ]
+                        }
+                    ],
                     "properties": [
                         {
                             "name": "Type",
