@@ -613,7 +613,7 @@
                     "name": "ListItem",
                     "childComponents": [ 
                         {
-                            "name": "LineTitleContent",
+                            "name": "TitleContent",
                             "properties": [
                                 {
                                     "name": "Components",
@@ -622,7 +622,7 @@
                             ]
                         },
                         {
-                            "name": "LineSubtitleContent",
+                            "name": "SubtitleContent",
                             "properties": [
                                 {
                                     "name": "Components",
@@ -631,7 +631,7 @@
                             ]
                         },
                         {
-                            "name": "LineContent",
+                            "name": "Content",
                             "properties": [
                                 {
                                     "name": "Components",
