@@ -984,6 +984,81 @@
                     "value": ""
                 }
             ]
+        },
+        {
+            "id": "20",
+            "name": "CategoryChart",
+            "properties": [
+                {
+                    "name": "Type",
+                    "valueType": "enum",
+                    "enumType": {
+                        "line": "Line",
+                        "column": "Column",
+                        "area": "Area",
+                        "point": "Point",
+                        "spline": "Spline",
+                        "splineArea": "SplineArea",
+                        "stepArea": "StepArea",
+                        "stepLine": "StepLine",
+                        "waterfall": "Waterfall"
+                    }
+                },
+                {
+                    "name": "ChartTitle",
+                    "valueType": "string",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "name": "BulletGraph",
+            "properties": [
+                {
+                    "name": "Value",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "TargetValue",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "MinimumValue",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "MaximumValue",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "ValueBrush",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "TargetValueBrush",
+                    "valueType": "string",
+                    "value": ""
+                }
+            ],
+            "childComponents": [
+                {
+                    "id": "21-0",
+                    "name": "RangeBrush",
+                    "properties": [
+                        {
+                            "name": "Color",
+                            "valueType": "string",
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
