@@ -1102,6 +1102,59 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "23",
+            "name": "RadialGauge",
+            "properties": [
+                {
+                    "name": "Value",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "MinimumValue",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "MaximumValue",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "NeedleType",
+                    "valueType": "enum",
+                    "enumType": {
+                        "needle": "Needle",
+                        "triangle": "Triangle",
+                        "trapezoid": "Trapezoid"
+                    }
+                },
+                {
+                    "name": "DialType",
+                    "valueType": "enum",
+                    "enumType": {
+                        "full": "Full",
+                        "half": "Half",
+                        "inside": "Inside",
+                        "outside": "Outside"
+                    }
+                }
+            ],
+            "childComponents": [
+                {
+                    "id": "23-0",
+                    "name": "RangeBrush",
+                    "properties": [
+                        {
+                            "name": "Color",
+                            "valueType": "string",
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
