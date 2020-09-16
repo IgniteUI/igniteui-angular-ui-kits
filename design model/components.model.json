@@ -1059,6 +1059,49 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "22",
+            "name": "LinearGauge",
+            "properties": [
+                {
+                    "name": "Value",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "MinimumValue",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "MaximumValue",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "NeedleType",
+                    "valueType": "enum",
+                    "enumType": {
+                        "needle": "Needle",
+                        "triangle": "Triangle",
+                        "trapezoid": "Trapezoid"
+                    }
+                }
+            ],
+            "childComponents": [
+                {
+                    "id": "22-0",
+                    "name": "RangeBrush",
+                    "properties": [
+                        {
+                            "name": "Color",
+                            "valueType": "string",
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
