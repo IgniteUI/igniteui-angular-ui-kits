@@ -1225,6 +1225,49 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "24",
+            "name": "NavDrawer",
+            "properties": [],
+            "childComponents": [
+                {
+                    "id": "24-0",
+                    "name": "NavDrawerItem",
+                    "childComponents": [
+                        {
+                            "name": "Icon",
+                            "properties": [
+                                {
+                                    "name": "Components",
+                                    "valueType": "array"
+                                }
+                            ]
+                        }
+                    ],
+                    "properties": [
+                        {
+                            "name": "Label",
+                            "valueType": "string",
+                            "value": ""
+                        },
+                        {
+                            "name": "BackgroundColor",
+                            "valueType": "string",
+                            "value": ""
+                        },
+                        {
+                            "name": "Type",
+                            "valueType": "enum",
+                            "enumType": {
+                                "record": "Record",
+                                "header": "Header"
+                            },
+                            "defaultValue": "Record"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
