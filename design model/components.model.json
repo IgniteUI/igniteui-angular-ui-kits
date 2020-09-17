@@ -1018,6 +1018,11 @@
                         "category": "Category",
                         "none": "None"
                     }
+                },
+                {
+                    "name": "BackgroundColor",
+                    "valueType": "string",
+                    "value": ""
                 }
             ]
         },
@@ -1052,6 +1057,21 @@
                 },
                 {
                     "name": "TargetValueBrush",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "BackgroundColor",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "MajorTickBrush",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "MinorTickBrush",
                     "valueType": "string",
                     "value": ""
                 }
@@ -1097,6 +1117,26 @@
                         "triangle": "Triangle",
                         "trapezoid": "Trapezoid"
                     }
+                },
+                {
+                    "name": "NeedleBrush",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "BackgroundColor",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "MajorTickBrush",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "MinorTickBrush",
+                    "valueType": "string",
+                    "value": ""
                 }
             ],
             "childComponents": [
@@ -1150,6 +1190,26 @@
                         "inside": "Inside",
                         "outside": "Outside"
                     }
+                },
+                {
+                    "name": "NeedleBrush",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "BackgroundColor",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "MajorTickBrush",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "MinorTickBrush",
+                    "valueType": "string",
+                    "value": ""
                 }
             ],
             "childComponents": [
