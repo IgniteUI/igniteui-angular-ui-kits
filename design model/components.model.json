@@ -1008,6 +1008,16 @@
                     "name": "ChartTitle",
                     "valueType": "string",
                     "value": ""
+                },
+                {
+                    "name": "TooltipType",
+                    "valueType": "enum",
+                    "enumType": {
+                        "default": "Default",
+                        "item": "Item",
+                        "category": "Category",
+                        "none": "None"
+                    }
                 }
             ]
         },
