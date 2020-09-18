@@ -1268,6 +1268,63 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "25",
+            "name": "Navbar",
+            "properties": [
+                {
+                    "name": "Title",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "BackgroundColor",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "Type",
+                    "valueType": "enum",
+                    "enumType": {
+                        "elevated": "Elevated",
+                        "outlined": "Outlined"
+                    },
+                    "defaultValue": "Elevated"
+                }
+            ],
+            "childComponents": [
+                {
+                    "id": "25-0",
+                    "name": "ActionsStartContent",
+                    "properties": [
+                        {
+                            "name": "Visible",
+                            "valueType": "boolean",
+                            "defaultValue": "true"
+                        },
+                        {
+                            "name": "Components",
+                            "valueType": "array"
+                        }
+                    ]
+                },
+                {
+                    "id": "25-1",
+                    "name": "ActionsEndContent",
+                    "properties": [
+                        {
+                            "name": "Visible",
+                            "valueType": "boolean",
+                            "defaultValue": "true"
+                        },
+                        {
+                            "name": "Components",
+                            "valueType": "array"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
