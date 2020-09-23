@@ -109,6 +109,11 @@
                         "6": "Saturday"
                     },
                     "defaultValue": "Sunday"
+                },
+                {
+                    "name": "MonthViews",
+                    "valueType": "number",
+                    "defaultValue": "1"
                 }
             ]
         },
