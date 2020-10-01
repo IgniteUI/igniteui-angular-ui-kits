@@ -138,8 +138,8 @@
                     "enumType": {
                         "text": "Text",
                         "icon": "Icon",
-                        "text+icon": "Text+Icon",
-                        "icon+text": "Icon+Text"
+                        "textIcon": "TextIcon",
+                        "iconText": "IconText"
                     },
                     "defaultValue": "Text"
                 },
