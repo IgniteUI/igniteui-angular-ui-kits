@@ -359,8 +359,8 @@
                     "name": "ContentType",
                     "valueType": "enum",
                     "enumType": {
-                        "Icon": "Icon",
-                        "Text": "Text"
+                        "icon": "Icon",
+                        "text": "Text"
                     },
                     "defaultValue": "Icon"
                 },
