@@ -109,6 +109,11 @@
                         "6": "Saturday"
                     },
                     "defaultValue": "Sunday"
+                },
+                {
+                    "name": "MonthViews",
+                    "valueType": "number",
+                    "defaultValue": "1"
                 }
             ]
         },
@@ -133,8 +138,8 @@
                     "enumType": {
                         "text": "Text",
                         "icon": "Icon",
-                        "text+icon": "Text+Icon",
-                        "icon+text": "Icon+Text"
+                        "textIcon": "TextIcon",
+                        "iconText": "IconText"
                     },
                     "defaultValue": "Text"
                 },
@@ -982,6 +987,347 @@
                     "name": "Message",
                     "valueType": "string",
                     "value": ""
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "name": "CategoryChart",
+            "properties": [
+                {
+                    "name": "Type",
+                    "valueType": "enum",
+                    "enumType": {
+                        "line": "Line",
+                        "column": "Column",
+                        "area": "Area",
+                        "point": "Point",
+                        "spline": "Spline",
+                        "splineArea": "SplineArea",
+                        "stepArea": "StepArea",
+                        "stepLine": "StepLine",
+                        "waterfall": "Waterfall"
+                    }
+                },
+                {
+                    "name": "ChartTitle",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "TooltipType",
+                    "valueType": "enum",
+                    "enumType": {
+                        "default": "Default",
+                        "item": "Item",
+                        "category": "Category",
+                        "none": "None"
+                    }
+                },
+                {
+                    "name": "BackgroundColor",
+                    "valueType": "string",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "name": "BulletGraph",
+            "properties": [
+                {
+                    "name": "Value",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "TargetValue",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "MinimumValue",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "MaximumValue",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "ValueBrush",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "TargetValueBrush",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "BackgroundColor",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "MajorTickBrush",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "MinorTickBrush",
+                    "valueType": "string",
+                    "value": ""
+                }
+            ],
+            "childComponents": [
+                {
+                    "id": "21-0",
+                    "name": "RangeBrush",
+                    "properties": [
+                        {
+                            "name": "Color",
+                            "valueType": "string",
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "name": "LinearGauge",
+            "properties": [
+                {
+                    "name": "Value",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "MinimumValue",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "MaximumValue",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "NeedleType",
+                    "valueType": "enum",
+                    "enumType": {
+                        "needle": "Needle",
+                        "triangle": "Triangle",
+                        "trapezoid": "Trapezoid"
+                    }
+                },
+                {
+                    "name": "NeedleBrush",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "BackgroundColor",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "MajorTickBrush",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "MinorTickBrush",
+                    "valueType": "string",
+                    "value": ""
+                }
+            ],
+            "childComponents": [
+                {
+                    "id": "22-0",
+                    "name": "RangeBrush",
+                    "properties": [
+                        {
+                            "name": "Color",
+                            "valueType": "string",
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "name": "RadialGauge",
+            "properties": [
+                {
+                    "name": "Value",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "MinimumValue",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "MaximumValue",
+                    "valueType": "number",
+                    "value": ""
+                },
+                {
+                    "name": "NeedleType",
+                    "valueType": "enum",
+                    "enumType": {
+                        "needle": "Needle",
+                        "triangle": "Triangle",
+                        "trapezoid": "Trapezoid"
+                    }
+                },
+                {
+                    "name": "DialType",
+                    "valueType": "enum",
+                    "enumType": {
+                        "full": "Full",
+                        "half": "Half",
+                        "inside": "Inside",
+                        "outside": "Outside"
+                    }
+                },
+                {
+                    "name": "NeedleBrush",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "BackgroundColor",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "MajorTickBrush",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "MinorTickBrush",
+                    "valueType": "string",
+                    "value": ""
+                }
+            ],
+            "childComponents": [
+                {
+                    "id": "23-0",
+                    "name": "RangeBrush",
+                    "properties": [
+                        {
+                            "name": "Color",
+                            "valueType": "string",
+                            "value": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "name": "NavDrawer",
+            "properties": [],
+            "childComponents": [
+                {
+                    "id": "24-0",
+                    "name": "NavDrawerItem",
+                    "childComponents": [
+                        {
+                            "name": "Icon",
+                            "properties": [
+                                {
+                                    "name": "Components",
+                                    "valueType": "array"
+                                }
+                            ]
+                        }
+                    ],
+                    "properties": [
+                        {
+                            "name": "Label",
+                            "valueType": "string",
+                            "value": ""
+                        },
+                        {
+                            "name": "BackgroundColor",
+                            "valueType": "string",
+                            "value": ""
+                        },
+                        {
+                            "name": "Type",
+                            "valueType": "enum",
+                            "enumType": {
+                                "record": "Record",
+                                "header": "Header"
+                            },
+                            "defaultValue": "Record"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "name": "Navbar",
+            "properties": [
+                {
+                    "name": "Title",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "BackgroundColor",
+                    "valueType": "string",
+                    "value": ""
+                },
+                {
+                    "name": "Type",
+                    "valueType": "enum",
+                    "enumType": {
+                        "elevated": "Elevated",
+                        "outlined": "Outlined"
+                    },
+                    "defaultValue": "Elevated"
+                }
+            ],
+            "childComponents": [
+                {
+                    "id": "25-0",
+                    "name": "ActionsStartContent",
+                    "properties": [
+                        {
+                            "name": "Visible",
+                            "valueType": "boolean",
+                            "defaultValue": "true"
+                        },
+                        {
+                            "name": "Components",
+                            "valueType": "array"
+                        }
+                    ]
+                },
+                {
+                    "id": "25-1",
+                    "name": "ActionsEndContent",
+                    "properties": [
+                        {
+                            "name": "Visible",
+                            "valueType": "boolean",
+                            "defaultValue": "true"
+                        },
+                        {
+                            "name": "Components",
+                            "valueType": "array"
+                        }
+                    ]
                 }
             ]
         }
