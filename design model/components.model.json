@@ -50,7 +50,7 @@
                     "valueType": "string"
                 }
             ]
-        },
+        }, // 0 - Avatar
         {
             "id": "1",
             "name": "Icon",
@@ -66,7 +66,7 @@
                     "defaultValue": ""
                 }
             ]
-        },
+        }, // 1 - Icon
         {
             "id": "2",
             "name": "Calendar",
@@ -116,7 +116,7 @@
                     "defaultValue": "1"
                 }
             ]
-        },
+        }, // 2 - Calendar
         {
             "id": "3",
             "name": "Button",
@@ -159,7 +159,7 @@
                     "defaultValue": "false"
                 }
             ]
-        },
+        }, // 3 - Button
         {
             "id": "4",
             "name": "Checkbox",
@@ -195,7 +195,7 @@
                     "defaultValue": "Unchecked"
                 }
             ]
-        },
+        }, // 4 - Checkbox
         {
             "id": "5",
             "name": "DatePicker",
@@ -280,7 +280,7 @@
                     ]
                 }
             ]
-        },
+        }, // 5 - DatePicker
         {
             "id": "6",
             "name": "TimePicker",
@@ -346,7 +346,7 @@
                     ]
                 }
             ]
-        },
+        }, // 6 - TimePicker
         {
             "id": "7",
             "name": "Badge",
@@ -380,7 +380,7 @@
                     "defaultValue": ""
                 }
             ]
-        },
+        }, // 7 - Badge
         {
             "id": "8",
             "name": "RadioGroup",
@@ -419,7 +419,7 @@
                     "defaultValue": "false"
                 }
             ]
-        },
+        }, // 8 - RadioGroup
         {
             "id": "9",
             "name": "Switch",
@@ -450,7 +450,7 @@
                     "defaultValue": "false"
                 }
             ]
-        },
+        }, // 9 - Switch
         {
             "id": "10",
             "name": "Card",
@@ -527,7 +527,7 @@
                     "defaultValue": "Elevated"
                 }
             ]
-        },
+        }, // 10 - Card
         {
             "id": "11",
             "name": "InputGroup",
@@ -607,7 +607,7 @@
                     "defaultValue": "false"
                 }
             ]
-        },
+        }, // 11 - InputGroup
         {
             "id": "12",
             "name": "List",
@@ -676,7 +676,7 @@
                     ]
                 }
             ]
-        },
+        }, // 12 - List
         {
             "id": "13",
             "name": "Grid",
@@ -772,7 +772,7 @@
                             "defaultValue": "false"
                         }
                     ]
-                }
+                } // 13-0 - Column
             ],
             "properties": [
                 {
@@ -826,7 +826,7 @@
                     "defaultValue": "None"
                 }
             ]
-        },
+        }, // 13 - Grid
         {
             "id": "14",
             "name": "Dialog",
@@ -840,7 +840,7 @@
                             "valueType": "array"
                         }
                     ]
-                },
+                }, // 14-0 - TitleContent
                 {
                     "id": "14-1",
                     "name": "BodyContent",
@@ -850,7 +850,7 @@
                             "valueType": "array"
                         }
                     ]
-                },
+                }, // 14-1 - BodyContent
                 {
                     "id": "14-2",
                     "name": "ActionsContent",
@@ -860,9 +860,9 @@
                             "valueType": "array"
                         }
                     ]
-                }
+                } // 14-2 - ActionsContent
             ]
-        },
+        }, // 14 - Dialog
         {
             "id": "15",
             "name": "LinearBar",
@@ -885,7 +885,7 @@
                     "value": "Default"
                 }
             ]
-        },
+        }, // 15 - LinearBar
         {
             "id": "16",
             "name": "CircularBar",
@@ -908,7 +908,7 @@
                     "value": "Default"
                 }
             ]
-        },
+        }, // 16 - CircularBar
         {
             "id": "17",
             "name": "Slider",
@@ -962,7 +962,7 @@
                     "value": ""
                 }
             ]
-        },
+        }, // 17 - Slider
         {
             "id": "18",
             "name": "Snackbar",
@@ -978,7 +978,7 @@
                     "value": ""
                 }
             ]
-        },
+        }, // 18 - Snackbar
         {
             "id": "19",
             "name": "Toast",
@@ -989,7 +989,7 @@
                     "value": ""
                 }
             ]
-        },
+        }, // 19 - Toast
         {
             "id": "20",
             "name": "CategoryChart",
@@ -1030,7 +1030,7 @@
                     "value": ""
                 }
             ]
-        },
+        }, // 20 - CategoryChart
         {
             "id": "21",
             "name": "BulletGraph",
@@ -1094,7 +1094,7 @@
                     ]
                 }
             ]
-        },
+        }, // 21 - BulletGraph
         {
             "id": "22",
             "name": "LinearGauge",
@@ -1157,7 +1157,7 @@
                     ]
                 }
             ]
-        },
+        }, // 22 - LinearGauge
         {
             "id": "23",
             "name": "RadialGauge",
@@ -1230,7 +1230,7 @@
                     ]
                 }
             ]
-        },
+        }, // 23 - RadialGauge
         {
             "id": "24",
             "name": "NavDrawer",
@@ -1273,7 +1273,7 @@
                     ]
                 }
             ]
-        },
+        }, // 24 - NavDrawer
         {
             "id": "25",
             "name": "Navbar",
@@ -1330,6 +1330,6 @@
                     ]
                 }
             ]
-        }
+        } // 25 - Navbar
     ]
 }
