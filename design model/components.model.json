@@ -3,7 +3,7 @@
     "id": "IGDSC",
     "components": [
         {
-            "id": "0",
+            "id": "avatar",
             "name": "Avatar",
             "properties": [
                 {
@@ -50,9 +50,9 @@
                     "valueType": "string"
                 }
             ]
-        }, // 0 - Avatar
+        }, // Avatar
         {
-            "id": "1",
+            "id": "icon",
             "name": "Icon",
             "properties": [
                 {
@@ -66,9 +66,9 @@
                     "defaultValue": ""
                 }
             ]
-        }, // 1 - Icon
+        }, // Icon
         {
-            "id": "2",
+            "id": "calendar",
             "name": "Calendar",
             "properties": [
                 {
@@ -116,9 +116,9 @@
                     "defaultValue": "1"
                 }
             ]
-        }, // 2 - Calendar
+        }, // Calendar
         {
-            "id": "3",
+            "id": "button",
             "name": "Button",
             "properties": [
                 {
@@ -159,9 +159,9 @@
                     "defaultValue": "false"
                 }
             ]
-        }, // 3 - Button
+        }, // Button
         {
-            "id": "4",
+            "id": "checkbox",
             "name": "Checkbox",
             "properties": [
                 {
@@ -195,9 +195,9 @@
                     "defaultValue": "Unchecked"
                 }
             ]
-        }, // 4 - Checkbox
+        }, // Checkbox
         {
-            "id": "5",
+            "id": "datePicker",
             "name": "DatePicker",
             "properties": [
                 {
@@ -250,7 +250,7 @@
             ],
             "childComponents": [
                 {
-                    "id": "5-0",
+                    "id": "datePicker-editorContent",
                     "name": "EditorContent",
                     "properties": [
                         {
@@ -263,9 +263,9 @@
                             "valueType": "array"
                         }
                     ]
-                },
+                }, // DatePicker - EditorContent
                 {
-                    "id": "5-1",
+                    "id": "datePicker-actionButtonsContent",
                     "name": "ActionButtonsContent",
                     "properties": [
                         {
@@ -278,11 +278,11 @@
                             "valueType": "array"
                         }
                     ]
-                }
+                } // DatePicker - ActionButtonsContent
             ]
-        }, // 5 - DatePicker
+        }, // DatePicker
         {
-            "id": "6",
+            "id": "timePicker",
             "name": "TimePicker",
             "properties": [
                 {
@@ -316,7 +316,7 @@
             ],
             "childComponents": [
                 {
-                    "id": "6-0",
+                    "id": "timePicker-editorContent",
                     "name": "EditorContent",
                     "properties": [
                         {
@@ -329,9 +329,9 @@
                             "valueType": "array"
                         }
                     ]
-                },
+                }, // TimePicker - EditorContent
                 {
-                    "id": "6-1",
+                    "id": "timePicker-actionButtonsContent",
                     "name": "ActionButtonsContent",
                     "properties": [
                         {
@@ -344,11 +344,11 @@
                             "valueType": "array"
                         }
                     ]
-                }
+                } // TimePicker - ActionButtonsContent
             ]
-        }, // 6 - TimePicker
+        }, // TimePicker
         {
-            "id": "7",
+            "id": "badge",
             "name": "Badge",
             "properties": [
                 {
@@ -380,13 +380,13 @@
                     "defaultValue": ""
                 }
             ]
-        }, // 7 - Badge
+        }, // Badge
         {
-            "id": "8",
+            "id": "radioGroup",
             "name": "RadioGroup",
             "childComponents": [
                 {
-                    "id": "8-0",
+                    "id": "radioGroup-radio",
                     "name": "Radio",
                     "properties": [
                         {
@@ -400,7 +400,7 @@
                             "defaultValue": "false"
                         }
                     ]
-                }
+                } // RadioGroup - Radio
             ],
             "properties": [
                 {
@@ -419,9 +419,9 @@
                     "defaultValue": "false"
                 }
             ]
-        }, // 8 - RadioGroup
+        }, // RadioGroup
         {
-            "id": "9",
+            "id": "switch",
             "name": "Switch",
             "properties": [
                 {
@@ -450,13 +450,13 @@
                     "defaultValue": "false"
                 }
             ]
-        }, // 9 - Switch
+        }, // Switch
         {
-            "id": "10",
+            "id": "card",
             "name": "Card",
             "childComponents": [
                 {
-                    "id": "10-0",
+                    "id": "card-headerContent",
                     "name": "HeaderContent",
                     "properties": [
                         {
@@ -469,9 +469,9 @@
                             "valueType": "array"
                         }
                     ]
-                },
+                }, // Card - HeaderContent
                 {
-                    "id": "10-1",
+                    "id": "card-bodyContent",
                     "name": "BodyContent",
                     "properties": [
                         {
@@ -484,9 +484,9 @@
                             "valueType": "array"
                         }
                     ]
-                },
+                }, // Card - BodyContent
                 {
-                    "id": "10-2",
+                    "id": "card-mediaContent",
                     "name": "MediaContent",
                     "properties": [
                         {
@@ -499,9 +499,9 @@
                             "valueType": "array"
                         }
                     ]
-                },
+                }, // Card - MediaContent
                 {
-                    "id": "10-3",
+                    "id": "card-actionsContent",
                     "name": "ActionsContent",
                     "properties": [
                         {
@@ -514,7 +514,7 @@
                             "valueType": "array"
                         }
                     ]
-                }
+                } // Card - ActionsContent
             ],
             "properties": [
                 {
@@ -527,13 +527,13 @@
                     "defaultValue": "Elevated"
                 }
             ]
-        }, // 10 - Card
+        }, // Card
         {
-            "id": "11",
+            "id": "inputGroup",
             "name": "InputGroup",
             "childComponents": [
                 {
-                    "id": "11-0",
+                    "id": "inputGroup-prefixContainer",
                     "name": "PrefixContainer",
                     "properties": [
                         {
@@ -541,9 +541,9 @@
                             "valueType": "array"
                         }
                     ]
-                },
+                }, // InputGroup - PrefixContainer
                 {
-                    "id": "11-1",
+                    "id": "inputGroup-suffixContainer",
                     "name": "SuffixContainer",
                     "properties": [
                         {
@@ -551,7 +551,7 @@
                             "valueType": "array"
                         }
                     ]
-                }
+                } // InputGroup - SuffixContainer
             ],
             "properties": [
                 {
@@ -607,17 +607,18 @@
                     "defaultValue": "false"
                 }
             ]
-        }, // 11 - InputGroup
+        }, // InputGroup
         {
-            "id": "12",
+            "id": "list",
             "name": "List",
             "properties": [],
             "childComponents": [
                 {
-                    "id": "12-0",
+                    "id": "list-item",
                     "name": "ListItem",
                     "childComponents": [ 
                         {
+                            "id": "list-item-titleContent",
                             "name": "TitleContent",
                             "properties": [
                                 {
@@ -625,8 +626,9 @@
                                     "valueType": "array"
                                 }
                             ]
-                        },
+                        }, // List - ListItem - TitleContent
                         {
+                            "id": "list-item-subtitleContent",
                             "name": "SubtitleContent",
                             "properties": [
                                 {
@@ -634,8 +636,9 @@
                                     "valueType": "array"
                                 }
                             ]
-                        },
+                        }, // List - ListItem - SubtitleContent
                         {
+                            "id": "list-item-content",
                             "name": "Content",
                             "properties": [
                                 {
@@ -643,8 +646,9 @@
                                     "valueType": "array"
                                 }
                             ]
-                        },
+                        }, // List - ListItem - Content
                         {
+                            "id": "list-item-actionsContent",
                             "name": "ActionsContent",
                             "properties": [
                                 {
@@ -652,8 +656,9 @@
                                     "valueType": "array"
                                 }
                             ]
-                        },
+                        }, // List - ListItem - ActionsContent
                         {
+                            "id": "list-item-thumbnailContent",
                             "name": "ThumbnailContent",
                             "properties": [
                                 {
@@ -661,7 +666,7 @@
                                     "valueType": "array"
                                 }
                             ]
-                        }
+                        } // List - ListItem - ThumbnailContent
                     ],
                     "properties": [
                         {
@@ -674,15 +679,15 @@
                             "defaultValue": "Record"
                         }
                     ]
-                }
+                } // List - ListItem
             ]
-        }, // 12 - List
+        }, // List
         {
-            "id": "13",
+            "id": "grid",
             "name": "Grid",
             "childComponents": [
                 {
-                    "id": "13-0",
+                    "id": "grid-column",
                     "name": "Column",
                     "properties": [
                         {
@@ -772,7 +777,7 @@
                             "defaultValue": "false"
                         }
                     ]
-                } // 13-0 - Column
+                } // Grid - Column
             ],
             "properties": [
                 {
@@ -826,13 +831,13 @@
                     "defaultValue": "None"
                 }
             ]
-        }, // 13 - Grid
+        }, // Grid
         {
-            "id": "14",
+            "id": "dialog",
             "name": "Dialog",
             "childComponents": [
                 {
-                    "id": "14-0",
+                    "id": "dialog-titleContent",
                     "name": "TitleContent",
                     "properties": [
                         {
@@ -840,9 +845,9 @@
                             "valueType": "array"
                         }
                     ]
-                }, // 14-0 - TitleContent
+                }, // Dialog - TitleContent
                 {
-                    "id": "14-1",
+                    "id": "dialog-bodyContent",
                     "name": "BodyContent",
                     "properties": [
                         {
@@ -850,9 +855,9 @@
                             "valueType": "array"
                         }
                     ]
-                }, // 14-1 - BodyContent
+                }, // Dialog - BodyContent
                 {
-                    "id": "14-2",
+                    "id": "dialog-actionsContent",
                     "name": "ActionsContent",
                     "properties": [
                         {
@@ -860,11 +865,11 @@
                             "valueType": "array"
                         }
                     ]
-                } // 14-2 - ActionsContent
+                } // Dialog - ActionsContent
             ]
-        }, // 14 - Dialog
+        }, // Dialog
         {
-            "id": "15",
+            "id": "linearBar",
             "name": "LinearBar",
             "properties": [
                 {
@@ -885,9 +890,9 @@
                     "value": "Default"
                 }
             ]
-        }, // 15 - LinearBar
+        }, // LinearBar
         {
-            "id": "16",
+            "id": "circularBar",
             "name": "CircularBar",
             "properties": [
                 {
@@ -908,9 +913,9 @@
                     "value": "Default"
                 }
             ]
-        }, // 16 - CircularBar
+        }, // CircularBar
         {
-            "id": "17",
+            "id": "slider",
             "name": "Slider",
             "properties": [
                 {
@@ -962,9 +967,9 @@
                     "value": ""
                 }
             ]
-        }, // 17 - Slider
+        }, // Slider
         {
-            "id": "18",
+            "id": "snackbar",
             "name": "Snackbar",
             "properties": [
                 {
@@ -978,9 +983,9 @@
                     "value": ""
                 }
             ]
-        }, // 18 - Snackbar
+        }, // Snackbar
         {
-            "id": "19",
+            "id": "toast",
             "name": "Toast",
             "properties": [
                 {
@@ -989,9 +994,9 @@
                     "value": ""
                 }
             ]
-        }, // 19 - Toast
+        }, // Toast
         {
-            "id": "20",
+            "id": "categoryChart",
             "name": "CategoryChart",
             "properties": [
                 {
@@ -1030,9 +1035,9 @@
                     "value": ""
                 }
             ]
-        }, // 20 - CategoryChart
+        }, // CategoryChart
         {
-            "id": "21",
+            "id": "bulletGraph",
             "name": "BulletGraph",
             "properties": [
                 {
@@ -1083,7 +1088,7 @@
             ],
             "childComponents": [
                 {
-                    "id": "21-0",
+                    "id": "bulletGraph-rangeBrush",
                     "name": "RangeBrush",
                     "properties": [
                         {
@@ -1092,11 +1097,11 @@
                             "value": ""
                         }
                     ]
-                }
+                } // BulletGraph - RangeBrush
             ]
-        }, // 21 - BulletGraph
+        }, // BulletGraph
         {
-            "id": "22",
+            "id": "linearGauge",
             "name": "LinearGauge",
             "properties": [
                 {
@@ -1146,7 +1151,7 @@
             ],
             "childComponents": [
                 {
-                    "id": "22-0",
+                    "id": "linearGauge-rangeBrush",
                     "name": "RangeBrush",
                     "properties": [
                         {
@@ -1155,11 +1160,11 @@
                             "value": ""
                         }
                     ]
-                }
+                } // LinearGauge - RangeBrush
             ]
-        }, // 22 - LinearGauge
+        }, // LinearGauge
         {
-            "id": "23",
+            "id": "radialGauge",
             "name": "RadialGauge",
             "properties": [
                 {
@@ -1219,7 +1224,7 @@
             ],
             "childComponents": [
                 {
-                    "id": "23-0",
+                    "id": "radialGauge-rangeBrush",
                     "name": "RangeBrush",
                     "properties": [
                         {
@@ -1228,19 +1233,20 @@
                             "value": ""
                         }
                     ]
-                }
+                } // RadialGauge - RangeBrush
             ]
-        }, // 23 - RadialGauge
+        }, // RadialGauge
         {
-            "id": "24",
+            "id": "navDrawer",
             "name": "NavDrawer",
             "properties": [],
             "childComponents": [
                 {
-                    "id": "24-0",
+                    "id": "navDrawer-item",
                     "name": "NavDrawerItem",
                     "childComponents": [
                         {
+                            "id": "navDrawer-item-icon",
                             "name": "Icon",
                             "properties": [
                                 {
@@ -1248,7 +1254,7 @@
                                     "valueType": "array"
                                 }
                             ]
-                        }
+                        } // NavDrawer - NavDrawerItem - Icon
                     ],
                     "properties": [
                         {
@@ -1271,11 +1277,11 @@
                             "defaultValue": "Record"
                         }
                     ]
-                }
+                } // NavDrawer - NavDrawerItem
             ]
-        }, // 24 - NavDrawer
+        }, // NavDrawer
         {
-            "id": "25",
+            "id": "navbar",
             "name": "Navbar",
             "properties": [
                 {
@@ -1300,7 +1306,7 @@
             ],
             "childComponents": [
                 {
-                    "id": "25-0",
+                    "id": "navbar-actionsStartContent",
                     "name": "ActionsStartContent",
                     "properties": [
                         {
@@ -1313,9 +1319,9 @@
                             "valueType": "array"
                         }
                     ]
-                },
+                }, // Navbar - ActionsStartContent
                 {
-                    "id": "25-1",
+                    "id": "navbar-actionsEndContent",
                     "name": "ActionsEndContent",
                     "properties": [
                         {
@@ -1328,8 +1334,8 @@
                             "valueType": "array"
                         }
                     ]
-                }
+                } // Navbar - ActionsEndContent
             ]
-        } // 25 - Navbar
+        } // Navbar
     ]
 }
