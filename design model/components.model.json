@@ -875,7 +875,7 @@
                 {
                     "name": "Value",
                     "valueType": "number",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "Type",
@@ -887,7 +887,7 @@
                         "warn": "Warn",
                         "error": "Error"
                     },
-                    "value": "Default"
+                    "defaultValue": "Default"
                 }
             ]
         }, // LinearBar
@@ -898,7 +898,7 @@
                 {
                     "name": "Value",
                     "valueType": "number",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "Type",
@@ -910,7 +910,7 @@
                         "warn": "Warn",
                         "error": "Error"
                     },
-                    "value": "Default"
+                    "defaultValue": "Default"
                 }
             ]
         }, // CircularBar
@@ -921,7 +921,7 @@
                 {
                     "name": "Value",
                     "valueType": "number",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "ValueRange",
@@ -944,7 +944,7 @@
                         "slider": "Slider",
                         "range": "Range"
                     },
-                    "value": "Slider"
+                    "defaultValue": "Slider"
                 },
                 {
                     "name": "Disabled",
@@ -954,17 +954,17 @@
                 {
                     "name": "LabelText",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "LowerLabelText",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "UpperLabelText",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 }
             ]
         }, // Slider
@@ -975,12 +975,12 @@
                 {
                     "name": "Message",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "ActionText",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 }
             ]
         }, // Snackbar
@@ -991,7 +991,7 @@
                 {
                     "name": "Message",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 }
             ]
         }, // Toast
@@ -1017,7 +1017,7 @@
                 {
                     "name": "ChartTitle",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "TooltipType",
@@ -1032,7 +1032,7 @@
                 {
                     "name": "BackgroundColor",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 }
             ]
         }, // CategoryChart
@@ -1043,47 +1043,47 @@
                 {
                     "name": "Value",
                     "valueType": "number",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "TargetValue",
                     "valueType": "number",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "MinimumValue",
                     "valueType": "number",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "MaximumValue",
                     "valueType": "number",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "ValueBrush",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "TargetValueBrush",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "BackgroundColor",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "MajorTickBrush",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "MinorTickBrush",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 }
             ],
             "childComponents": [
@@ -1094,7 +1094,7 @@
                         {
                             "name": "Color",
                             "valueType": "string",
-                            "value": ""
+                            "defaultValue": ""
                         }
                     ]
                 } // BulletGraph - RangeBrush
@@ -1107,17 +1107,17 @@
                 {
                     "name": "Value",
                     "valueType": "number",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "MinimumValue",
                     "valueType": "number",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "MaximumValue",
                     "valueType": "number",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "NeedleType",
@@ -1131,22 +1131,22 @@
                 {
                     "name": "NeedleBrush",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "BackgroundColor",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "MajorTickBrush",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "MinorTickBrush",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 }
             ],
             "childComponents": [
@@ -1157,7 +1157,7 @@
                         {
                             "name": "Color",
                             "valueType": "string",
-                            "value": ""
+                            "defaultValue": ""
                         }
                     ]
                 } // LinearGauge - RangeBrush
@@ -1170,17 +1170,17 @@
                 {
                     "name": "Value",
                     "valueType": "number",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "MinimumValue",
                     "valueType": "number",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "MaximumValue",
                     "valueType": "number",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "NeedleType",
@@ -1204,22 +1204,22 @@
                 {
                     "name": "NeedleBrush",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "BackgroundColor",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "MajorTickBrush",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "MinorTickBrush",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 }
             ],
             "childComponents": [
@@ -1230,7 +1230,7 @@
                         {
                             "name": "Color",
                             "valueType": "string",
-                            "value": ""
+                            "defaultValue": ""
                         }
                     ]
                 } // RadialGauge - RangeBrush
@@ -1260,12 +1260,12 @@
                         {
                             "name": "Label",
                             "valueType": "string",
-                            "value": ""
+                            "defaultValue": ""
                         },
                         {
                             "name": "BackgroundColor",
                             "valueType": "string",
-                            "value": ""
+                            "defaultValue": ""
                         },
                         {
                             "name": "Type",
@@ -1287,12 +1287,12 @@
                 {
                     "name": "Title",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "BackgroundColor",
                     "valueType": "string",
-                    "value": ""
+                    "defaultValue": ""
                 },
                 {
                     "name": "Type",
