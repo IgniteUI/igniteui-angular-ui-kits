@@ -210,14 +210,14 @@
                     "valueType": "number",
                     "defaultValue": "1"
                 },
-                {	
-                    "name": "Layout",	
-                    "valueType": "enum",	
-                    "enumType": {	
-                        "vertical": "Vertical",	
-                        "horizontal": "Horizontal"	
-                    },	
-                    "defaultValue": "Horizontal"	
+                {
+                    "name": "Layout",
+                    "valueType": "enum",
+                    "enumType": {
+                        "vertical": "Vertical",
+                        "horizontal": "Horizontal"
+                    },
+                    "defaultValue": "Horizontal"
                 },
                 {
                     "name": "Mode",
@@ -616,7 +616,7 @@
                 {
                     "id": "list-item",
                     "name": "ListItem",
-                    "childComponents": [ 
+                    "childComponents": [
                         {
                             "id": "list-item-titleContent",
                             "name": "TitleContent",
@@ -832,6 +832,166 @@
                 }
             ]
         }, // Grid
+        {
+            "id": "treegrid",
+            "name": "Tree Grid",
+            "childComponents": [
+                {
+                    "id": "grid-column",
+                    "name": "Column",
+                    "properties": [
+                        {
+                            "name": "Header",
+                            "valueType": "string"
+                        },
+                        {
+                            "name": "FieldName",
+                            "valueType": "string"
+                        },
+                        {
+                            "name": "DataType",
+                            "valueType": "string"
+                        },
+                        {
+                            "name": "Width",
+                            "valueType": "string"
+                        },
+                        {
+                            "name": "Pinned",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
+                        },
+                        {
+                            "name": "Hidden",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
+                        },
+                        {
+                            "name": "Selected",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
+                        },
+                        {
+                            "name": "Sortable",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
+                        },
+                        {
+                            "name": "Filterable",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
+                        },
+                        {
+                            "name": "Resizable",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
+                        },
+                        {
+                            "name": "Editable",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
+                        },
+                        {
+                            "name": "Pinable",
+                            "valueType": "boolean",
+                            "defaultValue": "true"
+                        },
+                        {
+                            "name": "Movable",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
+                        },
+                        {
+                            "name": "Hideable",
+                            "valueType": "boolean",
+                            "defaultValue": "true"
+                        },
+                        {
+                            "name": "Searchable",
+                            "valueType": "boolean",
+                            "defaultValue": "true"
+                        },
+                        {
+                            "name": "Selectable",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
+                        },
+                        {
+                            "name": "Summary",
+                            "valueType": "boolean",
+                            "defaultValue": "false"
+                        }
+                    ]
+                } // Tree Grid - Column
+            ],
+            "properties": [
+                {
+                    "name": "Density",
+                    "enumType": {
+                        "comfortable": "Comfortable",
+                        "cosy": "Cosy",
+                        "compact": "Compact"
+                    },
+                    "valueType": "enum",
+                    "defaultValue": "Comfortable"
+                },
+                {
+                    "name": "Paging",
+                    "valueType": "boolean",
+                    "defaultValue": "false"
+                },
+                {
+                    "name": "Filtering",
+                    "valueType": "enum",
+                    "enumType": {
+                        "quickFilter": "QuickFilter",
+                        "excelStyleFilter": "ExcelStyleFilter",
+                        "none": "None"
+                    },
+                    "defaultValue": "None"
+                },
+                {
+                    "name": "RowEditing",
+                    "valueType": "boolean",
+                    "defaultValue": "false"
+                },
+                {
+                    "name": "CellSelection",
+                    "valueType": "enum",
+                    "enumType": {
+                        "single": "Single",
+                        "multi": "Multi",
+                        "none": "None"
+                    },
+                    "defaultValue": "None"
+                },
+                {
+                    "name": "RowSelection",
+                    "valueType": "enum",
+                    "enumType": {
+                        "single": "Single",
+                        "multi": "Multi",
+                        "none": "None"
+                    },
+                    "defaultValue": "None"
+                },
+                {
+                    "name": "ChildDataKey",
+                    "valueType": "string",
+                    "defaultValue": ""
+                },
+                {
+                    "name": "ForeignKey",
+                    "valueType": "string",
+                    "defaultValue": ""
+                },
+                {
+                    "name": "ExpansionDepth",
+                    "valueType": "number",
+                    "defaultValue": 1
+                }
+            ]
+        }, // Tree Grid
         {
             "id": "dialog",
             "name": "Dialog",
